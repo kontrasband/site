@@ -1,8 +1,8 @@
 import React from "react";
 
-import Header from "../components/Header";
-import Preloader from "../components/Preloader";
-import Scripts from "../components/Scripts";
+import Header from "./Header";
+import Preloader from "./Preloader";
+import Scripts from "./Scripts";
 
 export default function Body(props) {
   return (

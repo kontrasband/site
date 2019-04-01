@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 
 import Body from "../components/Body";
 import Hero from "../components/Hero";
@@ -16,21 +15,13 @@ function Home() {
   return (
     <Body>
       <Hero />
-
       <LatestAlbum />
-
       <About />
-
       <Discography />
-
       <BandMembers />
-
       <Gallery />
-
       <Contact />
-
       <Footer />
-
       <ScrollUp />
     </Body>
   );

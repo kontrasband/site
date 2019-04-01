@@ -29,7 +29,7 @@ export default function Contact() {
                     <h2 className="uppercase ">Info Booking Press</h2>
                     <p className="mb-0">
                       <em className="uppercase h5 opc-70">Daniel Botha</em>{" "}
-                      (+27) 60 526 6825
+                      <a href="tel:+27605266825">(+27) 60 526 6825</a>
                       <br />
                       <a href="mailto:info@kontrasband.com">
                         info@kontrasband.com
