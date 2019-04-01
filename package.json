@@ -1,7 +1,26 @@
 {
-  "scripts": {
+  "name": "kontras",
+  "version": "1.0.0",
+  "description": "Kontras Band Website",
+  "main": "index.js",
+ "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louwjlabuschagne/kontras.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louwjlabuschagne/kontras/issues"
+  },
+  "homepage": "https://github.com/louwjlabuschagne/kontras#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
