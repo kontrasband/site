@@ -1,5 +1,7 @@
 import React from "react";
 
+import UpcomingEvents from "./UpcomingEvents";
+
 export default function About() {
   return (
     <section id="about" className="about overlay main">
@@ -63,30 +65,7 @@ export default function About() {
             </div>
           </div>
           <div className="col-lg-7">
-            <div className="row ">
-              <div className="col-md-4 ">
-                <a
-                  href="https://www.facebook.com/events/443377719742041/"
-                  style={{ color: "white" }}
-                >
-                  <div className="block-content front-p pt-3 pb-3 text-center rounded bg-red mb-4 mb-lg-0">
-                    <h3 className="uppercase mb-0 font-weight-600">
-                      Our Next Show
-                    </h3>
-                    <span className=" p mb-0">
-                      Aandklas
-                      <br />
-                      Stellenbosch, WC
-                    </span>
-                  </div>
-                </a>
-              </div>
-              {/* <!--                         <div className="col-md-4">
-                           <div className="block-content front-p">
-                              <span className="btn btn-primary uppercase with-ico border-2"><i className="icon-ticket"></i>R40 at the door</span>
-                           </div>
-                        </div> --> */}
-            </div>
+            <UpcomingEvents />
           </div>
         </div>
         {/* <!--End row--> */}
