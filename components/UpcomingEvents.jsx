@@ -4,13 +4,8 @@ import Events from "./database/upcoming_events";
 // import { importEvents } from "./database/upcoming_events";
 
 export default function UpcomingEvents() {
-  const [events, setEvents] = useState([]);
-  useEffect(() => {
-    setEvents(Events);
-    console.log("Events:");
-    console.log(events);
-    console.log("--");
-  }, []);
+  const [events, setEvents] = useState(Events);
+
   return (
     <div className="row">
       {events.map(ev => (

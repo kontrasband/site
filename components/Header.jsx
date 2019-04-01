@@ -55,12 +55,12 @@ export default function Header() {
       />
       <link rel="stylesheet" type="text/css" href="/static/css/our.css" />
       <link
-        href="http://fonts.googleapis.com/css?family=Dosis:100,300,400,600,700"
+        href="//fonts.googleapis.com/css?family=Dosis:100,300,400,600,700"
         rel="stylesheet"
         type="text/css"
       />
       <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300i,300,400,400i,600,700,800"
+        href="//fonts.googleapis.com/css?family=Open+Sans:300i,300,400,400i,600,700,800"
         rel="stylesheet"
       />
       <link rel="icon" type="image/png" href="static/img/icon-170x170.png" />
