@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+export default function Hero() {
   return (
     <section className="hero">
       {/* <!--Main slider--> */}
@@ -115,5 +115,3 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;
