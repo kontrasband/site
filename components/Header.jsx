@@ -16,6 +16,7 @@ export default function Header() {
         content="http://www.kontrasband.com/static/img/kontras-aandklas.jpg"
       />
       <meta property="og:url" content="http://www.kontrasband.com/" />
+      <link rel="manifest" href="/static/manifest.json" />
       {/* <!-- Css --> */}
       <link
         href="/static/css/bootstrap.css"

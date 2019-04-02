@@ -50,6 +50,7 @@ export default function Hero() {
                       className="video-play-but"
                       href="http://smarturl.it/xya64y"
                       target="_blank"
+                      rel="noopener"
                     />
                   </div>
                 </div>
