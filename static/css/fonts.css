@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'Socicon';
+  font-display: auto;
   src:  url('../font/Socicon.eot?jxsw4b');
   src:  url('../font/Socicon.eot?jxsw4b#iefix') format('embedded-opentype'),
     url('../font/Socicon.woff2?jxsw4b') format('woff2'),
@@ -774,6 +775,7 @@
 
 @font-face {
   font-family: 'fontello';
+  font-display: auto;
   src: url('../font/fontello.eot?46579446');
   src: url('../font/fontello.eot?46579446#iefix') format('embedded-opentype'),
        url('../font/fontello.woff2?46579446') format('woff2'),
@@ -793,42 +795,42 @@
   }
 }
 */
- 
+
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
- 
+
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
- 
+
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
- 
+
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
- 
+
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .icon-glass:before { content: '\e800'; } /* 'î €' */
 .icon-music:before { content: '\e801'; } /* 'î ' */
 .icon-search:before { content: '\e802'; } /* 'î ‚' */

@@ -4,9 +4,9 @@
   "description": "Kontras Band Website",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "export": "next export"
   },
   "repository": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/louwjlabuschagne/kontras#readme",
   "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
     "next": "^8.0.3",
     "now": "^15.0.0",
     "react": "^16.8.6",

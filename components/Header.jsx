@@ -7,7 +7,7 @@ export default function Header() {
       {/* <!-- Metas --> */}
       <meta charSet="utf-8" />
       <title>Kontras</title>
-      <meta name="description" content="" />
+      <meta name="description" content="Kontras — Afrikaans Alternative Rock" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Kontras" />
       <meta property="og:description" content="Afrikaans Alternative Rock" />

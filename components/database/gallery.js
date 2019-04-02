@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     id: 7,
-    href: "static/img/gallery/kontras-aandklas-migael.jpg"
+    href: "static/img/gallery/Aandklas 20-02 - Kontras-8.jpg"
   },
   {
     id: 8,
@@ -34,9 +34,5 @@ module.exports = [
   {
     id: 9,
     href: "static/img/gallery/IMG_0056.JPG"
-  },
-  {
-    id: 10,
-    href: "static/img/gallery/Aandklas 20-02 - Kontras-8.jpg"
   }
 ];
