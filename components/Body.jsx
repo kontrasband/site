@@ -8,7 +8,7 @@ export default function Body(props) {
   return (
     <div>
       <Header />
-      <Preloader />
+      {/* <Preloader /> */}
 
       <div className="wrapper">{props.children}</div>
 

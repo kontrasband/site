@@ -30,5 +30,13 @@ module.exports = [
   {
     id: 8,
     href: "static/img/gallery/IMG_0073.JPG"
+  },
+  {
+    id: 9,
+    href: "static/img/gallery/IMG_0056.JPG"
+  },
+  {
+    id: 10,
+    href: "static/img/gallery/Aandklas 20-02 - Kontras-8.jpg"
   }
 ];
