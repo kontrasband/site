@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 import Events from "./database/upcoming_events";
-// import { importEvents } from "./database/upcoming_events";
 
 export default function UpcomingEvents() {
   const [events, setEvents] = useState(Events);

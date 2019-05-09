@@ -3,11 +3,11 @@
 const events = [
   {
     id: 1,
-    eventName: "Aandklas",
-    eventUrl: "https://www.facebook.com/events/443377719742041/",
-    location: "Stellenbosch, WC",
+    eventName: "Scary Canary",
+    eventUrl: "https://www.facebook.com/events/2300007076689195/",
+    location: "Cape Town, WC",
     tickets: {
-      price: "R40",
+      price: "R30",
       url: null
     }
   }

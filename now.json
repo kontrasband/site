@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "name": "kontras",
-  "alias": ["kontrasband.com", "www.kontrasband.com"],
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
-}

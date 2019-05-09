@@ -11,19 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/louwjlabuschagne/kontras.git"
+    "url": "git+https://github.com/kontrasband/kontrasband.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/louwjlabuschagne/kontras/issues"
+    "url": "https://github.com/kontrasband/kontrasband.github.io/issues"
   },
-  "homepage": "https://github.com/louwjlabuschagne/kontras#readme",
+  "homepage": "https://github.com/kontrasband/kontrasband.github.io#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.16.4",
     "next": "^8.0.3",
-    "now": "^15.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack": "^4.29.6"
