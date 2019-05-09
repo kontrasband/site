@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Kontras Band Website",
   "main": "index.js",
-  "homepage": "http://djbotha.github.io/kontras",
+  "homepage": "http://kontrasband.github.io",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "export": "next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run export",
+    "deploy": "touch out/.nojekyll && gh-pages -d out"
   },
   "repository": {
     "type": "git",
