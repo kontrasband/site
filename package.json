@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kontras Band Website",
   "main": "index.js",
-  "homepage": "http://djbotha.github.io/kontras",
+  "homepage": "http://kontrasband.github.io",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
