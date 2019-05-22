@@ -26,15 +26,41 @@ export default function Contact() {
               <li className="col-md-12  col-lg-12">
                 <div className="card text-center">
                   <div className="card-body">
-                    <h2 className="uppercase ">Info Booking Press</h2>
-                    <p className="mb-0">
-                      <em className="uppercase h5 opc-70">Daniel Botha</em>{" "}
-                      <a href="tel:+27605266825">(+27) 60 526 6825</a>
-                      <br />
-                      <a href="mailto:info@kontrasband.com">
-                        info@kontrasband.com
-                      </a>
-                    </p>
+                    <div className="row">
+                      <div className="col-md-4">
+                        <h2 className="uppercase">Info</h2>
+                        <p className="mb-0">
+                          <em className="uppercase h5 opc-70">Daniel Botha</em>
+                          <a href="tel:+27605266825">(+27) 60 526 6825</a>
+                        </p>
+                      </div>
+                      <div className="col-md-4">
+                        <h2 className="uppercase ">Booking</h2>
+                        <p className="mb-0">
+                          <em className="uppercase h5 opc-70">
+                            Arnold van der Walt
+                          </em>
+                          <a href="tel:+27762157185">(+27) 76 215 7185</a>
+                        </p>
+                      </div>
+                      <div className="col-md-4">
+                        <h2 className="uppercase">Press</h2>
+                        <p className="mb-0">
+                          <em className="uppercase h5 opc-70">
+                            Andrew Veldman
+                          </em>
+                          <a href="tel:+27827986803">(+27) 82 798 6803</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <h2 className="uppercase mt-5">Email</h2>
+                    <a
+                      className="text-center"
+                      href="mailto:info@kontrasband.com"
+                    >
+                      info@kontrasband.com
+                    </a>
                   </div>
                 </div>
               </li>
