@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kontras Band Website",
   "main": "index.js",
-  "homepage": "http://kontrasband.github.io",
+  "homepage": "https://github.com/kontrasband/kontrasband.github.io#readme",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -19,14 +19,13 @@
   "bugs": {
     "url": "https://github.com/kontrasband/kontrasband.github.io/issues"
   },
-  "homepage": "https://github.com/kontrasband/kontrasband.github.io#readme",
   "dependencies": {
     "compression": "^1.7.4",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "next": "^8.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "webpack": "^4.29.6"
+    "webpack": "^4.36.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"

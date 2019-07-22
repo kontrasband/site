@@ -123,8 +123,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _BandMember__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BandMember */ "./components/BandMember.jsx");
-/* harmony import */ var _database_band_members__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./database/band_members */ "./components/database/band_members.js");
-/* harmony import */ var _database_band_members__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_database_band_members__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _database_band_members__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./database/band_members */ "./components/database/band_members.js");
+/* harmony import */ var _database_band_members__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_database_band_members__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -148,7 +148,7 @@ function BandMembers() {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
-  }, _database_band_members__WEBPACK_IMPORTED_MODULE_3___default.a.map(function (mem) {
+  }, _database_band_members__WEBPACK_IMPORTED_MODULE_2___default.a.map(function (mem) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BandMember__WEBPACK_IMPORTED_MODULE_1__["default"], {
       name: mem.name,
       role: mem.role,
@@ -481,8 +481,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Gallery; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _database_gallery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./database/gallery */ "./components/database/gallery.js");
-/* harmony import */ var _database_gallery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_database_gallery__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _database_gallery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./database/gallery */ "./components/database/gallery.js");
+/* harmony import */ var _database_gallery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_database_gallery__WEBPACK_IMPORTED_MODULE_1__);
 
 
 function Gallery() {
@@ -509,7 +509,7 @@ function Gallery() {
     className: "col-12 "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-gallery image-gallery"
-  }, _database_gallery__WEBPACK_IMPORTED_MODULE_2___default.a.map(function (im) {
+  }, _database_gallery__WEBPACK_IMPORTED_MODULE_1___default.a.map(function (im) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: im.href,
       className: "popup-image mb-0",
@@ -4997,7 +4997,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdaniel%2Fdev%2Fkontrasband.github.io%2Fpages%2Findex.jsx ***!
   \************************************************************************************************************************************/
@@ -5020,5 +5020,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
