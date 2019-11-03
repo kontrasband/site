@@ -7,5 +7,11 @@
 - Install dependencies `yarn install`
 - Start the application `yarn start` The magic happens on port 3000
 
-## Demo
-Link to Demo App: https://seunzone.github.io/TD-React-Challenge-Test-1/
+## Deployment
+To deploy, run
+
+```
+yarn run deploy
+```
+
+The site will then be updated and hosted at [https://kontrasband.com](https://kontrasband.com).
