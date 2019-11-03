@@ -1,8 +1,8 @@
 {
-  "name": "kontrasband.github.io",
-  "version": "0.1.0",
+  "name": "Kontras Site",
+  "version": "0.9.0",
   "private": true,
-  "homepage": "https://kontrasband.github.io",
+  "homepage": "https://kontrasband.com",
   "dependencies": {
     "bootstrap": "3",
     "fsevents": "^2.1.1",
