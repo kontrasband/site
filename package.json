@@ -1,33 +1,35 @@
 {
-  "name": "kontras",
-  "version": "1.0.0",
-  "description": "Kontras Band Website",
-  "main": "index.js",
-  "homepage": "https://github.com/kontrasband/kontrasband.github.io#readme",
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "npm run build && next export"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kontrasband/kontrasband.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kontrasband/kontrasband.github.io/issues"
-  },
+  "name": "site",
+  "version": "0.9.0",
+  "private": true,
+  "homepage": "https://kontrasband.com",
   "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
-    "next": "^8.0.3",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "webpack": "^4.36.1"
+    "bootstrap": "3",
+    "fsevents": "^2.1.1",
+    "gh-pages": "^2.0.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.1",
+    "react-scripts": "2.1.8"
   },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
