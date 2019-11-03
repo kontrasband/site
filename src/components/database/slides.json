@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "bg": "/static/img/middelklas.png",
+    "title": "Middelklas Middelman",
+    "body": "Kry hom nou op alle aanlyn winkels",
+    "href": "https://www.youtube.com/watch?v=BzGOPUwr4-Q"
+  },
+  {
+    "id": 2,
+    "bg": "/static/img/paige-shoot.jpg",
+    "title": "Kontras",
+    "body": "Alternatiewe Afrikaanse Musiek"
+  },
+  {
+    "id": 3,
+    "bg": "/static/img/album/2.jpg",
+    "title": "\"Side B\"",
+    "body": "Now Available Everywhere",
+    "href": "http://smarturl.it/xya64y"
+  }
+]

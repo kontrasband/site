@@ -27,12 +27,7 @@ export default function BandMembers() {
         {/* <!--Row--> */}
         <div className="row">
           {Members.map(mem => (
-            <BandMember
-              name={mem.name}
-              role={mem.role}
-              img={mem.img}
-              key={mem.id}
-            />
+            <BandMember member={mem} key={mem.id} />
           ))}
         </div>
         {/* <!--End row--> */}

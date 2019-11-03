@@ -27,8 +27,16 @@ export default function Gallery() {
           <div className="col-12 ">
             <div className="card-gallery image-gallery">
               {galleryImages.map(im => (
-                <a href={im.href} className="popup-image mb-0" key={im.id}>
-                  <img className="animated" alt="" src={im.href} />
+                <a
+                  href={`/static/img/gallery/${im}`}
+                  className="popup-image mb-0"
+                  key={im}
+                >
+                  <img
+                    className="animated"
+                    alt=""
+                    src={`/static/img/gallery/${im}`}
+                  />
                 </a>
               ))}
             </div>

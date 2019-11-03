@@ -28,7 +28,7 @@ export default function LatestAlbum() {
                 <ul>
                   <li>
                     <h5 className=" uppercase list-inline-item ">Label</h5>
-                    <span>Independant</span>
+                    <span>Independent</span>
                   </li>
                   <li>
                     <h5 className=" uppercase list-inline-item">Released</h5>
