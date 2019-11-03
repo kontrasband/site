@@ -1,0 +1,8 @@
+{
+  "name": "Kontras Band Site",
+  "short_name": "Kontras",
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#ff5252",
+  "background_color": "#13181d"
+}
