@@ -1,6 +1,4 @@
 (function($) {
-  "use strict";
-
   // Windows load
 
   $(window).on("load", function() {
@@ -21,9 +19,9 @@
 
   // Site navigation setup
 
-  var header = $(".header"),
-    pos = header.offset(),
-    blockTop = $(".block-top");
+  var header = $(".header");
+  var pos = header.offset();
+  var blockTop = $(".block-top");
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > pos.top + 500 && header.hasClass("default")) {
@@ -55,12 +53,10 @@
     mainHero.css("height", $(window).height());
   }
 
-  $(function() {
+  mainHeroResize();
+  $(window).resize(function() {
     mainHeroResize();
-  }),
-    $(window).resize(function() {
-      mainHeroResize();
-    });
+  });
 
   // Slider
 
@@ -210,7 +206,7 @@
     });
     return listOfTweets;
   }
-  twitterFetcher.fetch(config);
+  // twitterFetcher.fetch(config);
 
   // Tabbed content
 
@@ -302,4 +298,4 @@
     effect: "fadeToggle",
     speed: "300"
   });
-})(jQuery);
+})($);
