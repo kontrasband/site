@@ -19,9 +19,9 @@
 
   // Site navigation setup
 
-  var header = $(".header"),
-    pos = header.offset(),
-    blockTop = $(".block-top");
+  var header = $(".header");
+  var pos = header.offset();
+  var blockTop = $(".block-top");
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > pos.top + 500 && header.hasClass("default")) {
@@ -53,13 +53,10 @@
     mainHero.css("height", $(window).height());
   }
 
-  // eslint-disable-next-line
-  $(function() {
+  mainHeroResize();
+  $(window).resize(function() {
     mainHeroResize();
-  }),
-    $(window).resize(function() {
-      mainHeroResize();
-    });
+  });
 
   // Slider
 
@@ -179,36 +176,36 @@
 
   //Twitter setup
 
-  // var config = {
-  //   profile: { screenName: "mutationthemes" },
-  //   domId: "tweets",
-  //   maxTweets: 3,
-  //   showRetweet: false,
-  //   showImages: false,
-  //   showUser: true,
-  //   showTime: true,
-  //   customCallback: handleTweets
-  // };
+  var config = {
+    profile: { screenName: "mutationthemes" },
+    domId: "tweets",
+    maxTweets: 3,
+    showRetweet: false,
+    showImages: false,
+    showUser: true,
+    showTime: true,
+    customCallback: handleTweets
+  };
 
-  // function handleTweets(tweets) {
-  //   var x = tweets.length;
-  //   var n = 0;
-  //   var element = $(".tweets");
-  //   var listOfTweets = $("<ul>").addClass("slides");
-  //   while (n < x) {
-  //     var thisTweet = $("<li>");
-  //     thisTweet.html(tweets[n]);
-  //     listOfTweets.append(thisTweet);
-  //     n++;
-  //   }
-  //   element.html(listOfTweets);
-  //   $(".tweets").flexslider({
-  //     animation: "slide",
-  //     controlNav: true,
-  //     directionNav: false
-  //   });
-  //   return listOfTweets;
-  // }
+  function handleTweets(tweets) {
+    var x = tweets.length;
+    var n = 0;
+    var element = $(".tweets");
+    var listOfTweets = $("<ul>").addClass("slides");
+    while (n < x) {
+      var thisTweet = $("<li>");
+      thisTweet.html(tweets[n]);
+      listOfTweets.append(thisTweet);
+      n++;
+    }
+    element.html(listOfTweets);
+    $(".tweets").flexslider({
+      animation: "slide",
+      controlNav: true,
+      directionNav: false
+    });
+    return listOfTweets;
+  }
   // twitterFetcher.fetch(config);
 
   // Tabbed content

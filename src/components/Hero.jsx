@@ -17,7 +17,7 @@ export default function Hero() {
                 <div className="col-sm-12 text-center">
                   {/* <!--Inner hero--> */}
                   <div className="inner-hero">
-                    <h1 className="large text-white uppercase mb-0">Kontras</h1>
+                    <h1 className="large text-whitppercase mb-0">Kontras</h1>
                     <h5 className="mb-0 text-white uppercase">
                       Afrikaans Music Made Real Good
                     </h5>
@@ -52,7 +52,7 @@ export default function Hero() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      play
+                      &nbsp;
                     </a>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export default function Hero() {
           <nav className="main-nav">
             <div className="toggle-mobile-but">
               <a href="#" className="mobile-but">
-                <div className="lines" />
+                <div className="lines"></div>
               </a>
             </div>
             <ul className="main-menu list-inline">

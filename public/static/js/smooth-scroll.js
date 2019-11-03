@@ -110,7 +110,7 @@
       }
 
       var opts = $.extend({}, $.fn.smoothScroll.defaults, options),
-        locationPath = $.smoothScroll.filterPath(location.pathname); // eslint-disable-line
+        locationPath = $.smoothScroll.filterPath(window.location.pathname);
 
       this.unbind("click.smoothscroll").bind("click.smoothscroll", function(
         event
@@ -124,7 +124,8 @@
           ewlCounter = 0,
           include = true,
           clickOpts = {},
-          hostMatch = location.hostname === link.hostname || !link.hostname,
+          hostMatch =
+            window.location.hostname === link.hostname || !link.hostname,
           pathMatch =
             thisOpts.scrollTarget ||
             ($.smoothScroll.filterPath(link.pathname) || locationPath) ===
@@ -267,4 +268,4 @@
   function escapeSelector(str) {
     return str.replace(/(:|\.)/g, "\\$1");
   }
-})(window.jQuery);
+})($);

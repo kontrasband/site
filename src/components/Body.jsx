@@ -7,7 +7,7 @@ import Scripts from "./Scripts";
 export default function Body(props) {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Preloader />
 
       <div className="wrapper">{props.children}</div>
