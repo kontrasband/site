@@ -8,32 +8,22 @@ export default function About() {
   return (
     <section id="about" className="about overlay main">
       <div className="background-img">
-        <img src="/static/img/about-bg.png" alt="" />
+        <img src="/static/img/gallery/Rocking Stellies-7.jpg" alt="" />
       </div>
       <Container>
         <Row className="vertical-align">
           <Col lg={5} md={12} className="col-lg-5 col-md-12">
             <div className="front-p">
               <h1 className="uppercase text-white">
-                A different <br />
-                kind of music
+                &ldquo;Ons almal is 'n kontras&hellip;
               </h1>
               <p className=" w-93">
-                We are Kontras – a Stellenbosch-based alternative Afrikaans rock
-                band. We are a newly formed band with a signature blend of rock,
-                punk and alternative soundscapes. Our first EP, Side A, is a
-                collection of tracks that encapsulate the band’s contrasting
-                sound as well as our dynamic range in subject matter. <br />
-                <br />
-                Kontras consists of four university friends who met at
-                Stellenbosch University due to their shared musical experiences;
-                Jacques Groenewald on vocals, Andrew Veldman on lead guitar,
-                Louwrens Labuschagne on the bass guitar and Daniël Botha driving
-                their sound forward on drums. Growing up listening to music that
-                ranges from an eclectic mix of punk, pop, metal, and hip-hop,
-                Kontras doesn’t define themselves as a singular concept, but as
-                a collection of the shared experiences of young adults who feel
-                frustrated with the status quo.
+                &hellip;Ons haat die dinge wat ons self die meeste doen.&rdquo;
+              </p>
+              <p className="w-93">
+                Ons maak Afrikaanse alternatiewe rock met 'n punk invloed. Van
+                ons tunes is hard. Van ons tunes trek jou hartsnare. Word deel
+                van die kontras.
               </p>
               <ul className="block-social list-inline mb-4 mb-lg-0">
                 <li className="list-inline-item mr-0">

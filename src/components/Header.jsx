@@ -13,7 +13,7 @@ export default function Header() {
       <meta property="og:description" content="Afrikaans Alternative Rock" />
       <meta
         property="og:image"
-        content="http://www.kontrasband.com/static/img/kontras-aandklas.jpg"
+        content="http://www.kontrasband.com/static/img/paige-studio.jpg"
       />
       <meta property="og:url" content="http://www.kontrasband.com/" />
       <link rel="manifest" href="/static/manifest.json" />
