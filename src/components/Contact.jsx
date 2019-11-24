@@ -1,40 +1,36 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Contact() {
   return (
     <section id="contact" className="contact main bg-secondary">
-      {/* <!--Container--> */}
-      <div className="container">
-        {/* <!--Row--> */}
-        <div className="row justify-content-center ">
-          <div className="col-12 col-md-10 col-lg-9">
-            <div className="block-content  gap-one-bottom-md text-center">
+      <Container>
+        <Row className="justify-content-center ">
+          <Col xs={12} md={10} lg={9}>
+            <div className="block-content gap-one-bottom-md text-center">
               <div className="block-title ">
                 <h1 className="uppercase">Get in touch</h1>
               </div>
             </div>
-          </div>
-        </div>
-        {/* <!--End row--> */}
-      </div>
-      {/* <!--End container--> */}
-      {/* <!--Container--> */}
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-12 col-lg-10">
-            <ul className="feature-list feature-list-sm text-center row">
-              <li className="col-md-12  col-lg-12">
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row className="justify-content-center">
+          <Col xs={12} lg={10}>
+            <Row as="ul" className="feature-list feature-list-sm text-center">
+              <Col as="li" md={12} lg={12}>
                 <div className="card text-center">
                   <div className="card-body">
-                    <div className="row">
-                      <div className="col-md-4">
+                    <Row>
+                      <Col md={4}>
                         <h2 className="uppercase">Info</h2>
                         <p className="mb-0">
                           <em className="uppercase h5 opc-70">Daniel Botha</em>
                           <a href="tel:+27605266825">(+27) 60 526 6825</a>
                         </p>
-                      </div>
-                      <div className="col-md-4">
+                      </Col>
+                      <Col md={4}>
                         <h2 className="uppercase ">Booking</h2>
                         <p className="mb-0">
                           <em className="uppercase h5 opc-70">
@@ -42,8 +38,8 @@ export default function Contact() {
                           </em>
                           <a href="tel:+27762157185">(+27) 76 215 7185</a>
                         </p>
-                      </div>
-                      <div className="col-md-4">
+                      </Col>
+                      <Col md={4}>
                         <h2 className="uppercase">Press</h2>
                         <p className="mb-0">
                           <em className="uppercase h5 opc-70">
@@ -51,8 +47,8 @@ export default function Contact() {
                           </em>
                           <a href="tel:+27827986803">(+27) 82 798 6803</a>
                         </p>
-                      </div>
-                    </div>
+                      </Col>
+                    </Row>
 
                     <h2 className="uppercase mt-5">Email</h2>
                     <a
@@ -63,12 +59,12 @@ export default function Contact() {
                     </a>
                   </div>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-12">
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col xs={12}>
             <ul className="block-social list-inline text-center mt-4">
               <li className="list-inline-item">
                 <a href="https://web.facebook.com/kontrasband/">
@@ -96,10 +92,9 @@ export default function Contact() {
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
-      {/* <!--End container--> */}
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

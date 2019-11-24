@@ -17,6 +17,7 @@ function App() {
     script.src = "/static/js/script.js";
     document.getElementById("root").appendChild(script);
   }, []);
+
   return (
     <Body>
       <Hero />

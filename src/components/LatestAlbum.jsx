@@ -1,41 +1,37 @@
 import React from "react";
+import { Container, Col, Row } from "react-bootstrap";
 
 export default function LatestAlbum() {
   return (
     <section id="album" className="latest main">
-      {/* <!--Container--> */}
-      <div className="container">
-        {/* <!--Row--> */}
-        <div className="row justify-content-center">
-          <div className="col-12 col-md-10 col-lg-9 ">
+      <Container className="container">
+        <Row className="justify-content-center">
+          <Col xs={12} md={10} lg={9}>
             <div className="block-content text-center gap-one-bottom-md">
               <div className="block-title ">
                 <h1 className="uppercase">Side B</h1>
               </div>
             </div>
-          </div>
-        </div>
-        {/* <!--End row--> */}
-      </div>
-      {/* <!--End container--> */}
-      {/* <!--Container--> */}
-      <div className="container">
-        {/* <!--Row--> */}
-        <div className="row justify-content-center">
-          <div className="col-12  col-lg-4  ">
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row className="justify-content-center">
+          <Col xs={12} lg={4}>
             <div className="block-content text-center gap-one-bottom-sm">
               <div className="block-album-info">
                 <ul>
                   <li>
-                    <h5 className=" uppercase list-inline-item ">Label</h5>
+                    <h5 className="uppercase list-inline-item ">Label</h5>
                     <span>Independent</span>
                   </li>
                   <li>
-                    <h5 className=" uppercase list-inline-item">Released</h5>
+                    <h5 className="uppercase list-inline-item">Released</h5>
                     <span>March 1st</span>
                   </li>
                   <li>
-                    <h5 className=" uppercase list-inline-item">Genre</h5>
+                    <h5 className="uppercase list-inline-item">Genre</h5>
                     <span>Afrikaans Alternative Rock</span>
                   </li>
                   <li>
@@ -73,11 +69,9 @@ export default function LatestAlbum() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        {/* <!--End row--> */}
-      </div>
-      {/* <!--End container--> */}
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

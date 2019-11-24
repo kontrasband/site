@@ -2,8 +2,6 @@ import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-// import UpcomingEvents from "./UpcomingEvents";
-
 export default function About() {
   return (
     <section id="about" className="about overlay main">
@@ -12,12 +10,12 @@ export default function About() {
       </div>
       <Container>
         <Row className="vertical-align">
-          <Col lg={5} md={12} className="col-lg-5 col-md-12">
+          <Col lg={5} md={12}>
             <div className="front-p">
               <h1 className="uppercase text-white">
                 &ldquo;Ons almal is 'n kontras&hellip;
               </h1>
-              <p className=" w-93">
+              <p className="w-93">
                 &hellip;Ons haat die dinge wat ons self die meeste doen.&rdquo;
               </p>
               <p className="w-93">
