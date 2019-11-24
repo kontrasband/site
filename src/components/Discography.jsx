@@ -1,28 +1,24 @@
 import React from "react";
 
+import { Container, Row, Col } from "react-bootstrap";
+
 export default function Discography() {
   return (
     <section id="discography" className="discography main">
-      {/* <!--Container--> */}
-      <div className="container">
-        {/* <!--Row--> */}
-        <div className="row justify-content-center">
-          <div className="col-12 col-md-10 col-lg-9 ">
+      <Container>
+        <Row className="justify-content-center">
+          <Col xs={12} md={10} lg={9}>
             <div className="block-content text-center gap-one-bottom-md">
               <div className="block-title ">
                 <h1 className="uppercase">Discography</h1>
               </div>
             </div>
-          </div>
-        </div>
-        {/* <!--End row--> */}
-      </div>
-      {/* <!--End container--> */}
-      {/* <!--Container--> */}
-      <div className="container">
-        {/* <!--Row--> */}
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-6">
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col xs={12} md={6} lg={6}>
             <div className="block-album block-content">
               <h5 className="mb-0 opc-70 uppercase">Side A</h5>
               <a className="link" href="http://smarturl.it/80n151">
@@ -63,8 +59,8 @@ export default function Discography() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="col-12 col-md-6 col-lg-6">
+          </Col>
+          <Col xs={12} md={6} lg={6}>
             <div className="block-album block-content">
               <h5 className="mb-0 opc-70 uppercase">Side B</h5>
               <a className="link" href="http://smarturl.it/xya64y">
@@ -105,11 +101,9 @@ export default function Discography() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        {/* <!--End row--> */}
-      </div>
-      {/* <!--End container--> */}
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }
