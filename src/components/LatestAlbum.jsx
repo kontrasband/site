@@ -92,7 +92,7 @@ export default function LatestAlbum() {
                   </li>
                 </ul>
               </div>
-              <ul className="block-social list-inline mt-4">
+              {/* <ul className="block-social list-inline mt-4">
                 {RELEASE_LINKS.map(link => (
                   <li key={link.id} className="list-inline-item mr-0">
                     <a href={link.link}>
@@ -100,7 +100,7 @@ export default function LatestAlbum() {
                     </a>
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </Col>
         </Row>
