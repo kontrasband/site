@@ -143,69 +143,69 @@
 
   // });
 
-  $(".toggle-lyrics").on("click", function() {
-    $(this)
-      .closest(".playlist li")
-      .find(".block-lyrics")
-      .slideToggle();
-    $(this).toggleClass("selected");
-    return false;
-  });
+  // $(".toggle-lyrics").on("click", function() {
+  //   $(this)
+  //     .closest(".playlist li")
+  //     .find(".block-lyrics")
+  //     .slideToggle();
+  //   $(this).toggleClass("selected");
+  //   return false;
+  // });
 
-  $(".btn").on("click", function() {
-    var href = $(this).attr("href");
-    window.location.href = href;
-    return false;
-  });
+  // $(".btn").on("click", function() {
+  //   var href = $(this).attr("href");
+  //   window.location.href = href;
+  //   return false;
+  // });
 
-  // Count down setup
+  // // Count down setup
 
-  $(".countdown")
-    .countdown("2019/12/20")
-    .on("update.countdown", function(event) {
-      var $this = $(this).html(
-        event.strftime(
-          "" +
-            '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%d</span> <span class="label">day%!d</span></div> ' +
-            '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%H</span> <span class="label">hr%!H</span></div> ' +
-            '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%M</span> <span class="label">min%!M</span></div> ' +
-            '<div class="counter-bg"><span class="counter">%S</span> <span class="label">sec%!S</span></div>'
-        )
-      );
-    });
+  // $(".countdown")
+  //   .countdown("2019/12/20")
+  //   .on("update.countdown", function(event) {
+  //     var $this = $(this).html(
+  //       event.strftime(
+  //         "" +
+  //           '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%d</span> <span class="label">day%!d</span></div> ' +
+  //           '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%H</span> <span class="label">hr%!H</span></div> ' +
+  //           '<div class="counter-bg mb-4 mb-lg-0"><span class="counter">%M</span> <span class="label">min%!M</span></div> ' +
+  //           '<div class="counter-bg"><span class="counter">%S</span> <span class="label">sec%!S</span></div>'
+  //       )
+  //     );
+  //   });
 
   //Twitter setup
 
-  var config = {
-    profile: { screenName: "mutationthemes" },
-    domId: "tweets",
-    maxTweets: 3,
-    showRetweet: false,
-    showImages: false,
-    showUser: true,
-    showTime: true,
-    customCallback: handleTweets
-  };
+  // var config = {
+  //   profile: { screenName: "mutationthemes" },
+  //   domId: "tweets",
+  //   maxTweets: 3,
+  //   showRetweet: false,
+  //   showImages: false,
+  //   showUser: true,
+  //   showTime: true,
+  //   customCallback: handleTweets
+  // };
 
-  function handleTweets(tweets) {
-    var x = tweets.length;
-    var n = 0;
-    var element = $(".tweets");
-    var listOfTweets = $("<ul>").addClass("slides");
-    while (n < x) {
-      var thisTweet = $("<li>");
-      thisTweet.html(tweets[n]);
-      listOfTweets.append(thisTweet);
-      n++;
-    }
-    element.html(listOfTweets);
-    $(".tweets").flexslider({
-      animation: "slide",
-      controlNav: true,
-      directionNav: false
-    });
-    return listOfTweets;
-  }
+  // function handleTweets(tweets) {
+  //   var x = tweets.length;
+  //   var n = 0;
+  //   var element = $(".tweets");
+  //   var listOfTweets = $("<ul>").addClass("slides");
+  //   while (n < x) {
+  //     var thisTweet = $("<li>");
+  //     thisTweet.html(tweets[n]);
+  //     listOfTweets.append(thisTweet);
+  //     n++;
+  //   }
+  //   element.html(listOfTweets);
+  //   $(".tweets").flexslider({
+  //     animation: "slide",
+  //     controlNav: true,
+  //     directionNav: false
+  //   });
+  //   return listOfTweets;
+  // }
   // twitterFetcher.fetch(config);
 
   // Tabbed content
@@ -249,53 +249,53 @@
 
   //Search form setup
 
-  var btn = $(".main-nav li span.search-ico");
-  var searchForm = {
-    container: $(".block-search-form"),
+  // var btn = $(".main-nav li span.search-ico");
+  // var searchForm = {
+  //   container: $(".block-search-form"),
 
-    config: {
-      effect: "slideToggle",
-      speed: "300"
-    },
+  //   config: {
+  //     effect: "slideToggle",
+  //     speed: "300"
+  //   },
 
-    init: function(config) {
-      $.extend(this.config, config);
-      btn.on("click", this.show);
-    },
+  //   init: function(config) {
+  //     $.extend(this.config, config);
+  //     btn.on("click", this.show);
+  //   },
 
-    show: function() {
-      var sf = searchForm,
-        container = sf.container,
-        config = sf.config;
+  //   show: function() {
+  //     var sf = searchForm,
+  //       container = sf.container,
+  //       config = sf.config;
 
-      if (container.is(":hidden")) {
-        searchForm.close.call(container);
-        searchForm.container[config.effect](config.speed);
-      }
-    },
+  //     if (container.is(":hidden")) {
+  //       searchForm.close.call(container);
+  //       searchForm.container[config.effect](config.speed);
+  //     }
+  //   },
 
-    close: function() {
-      var $this = $(this);
+  //   close: function() {
+  //     var $this = $(this);
 
-      if ($this.find("span.search-close").length) return;
+  //     if ($this.find("span.search-close").length) return;
 
-      document.onkeydown = function(e) {
-        e = e || window.event;
-        if (e.keyCode == 27) {
-          $this[searchForm.config.effect](searchForm.config.effect.speed);
-        }
-      };
+  //     document.onkeydown = function(e) {
+  //       e = e || window.event;
+  //       if (e.keyCode == 27) {
+  //         $this[searchForm.config.effect](searchForm.config.effect.speed);
+  //       }
+  //     };
 
-      $("<span class=close-search></span>")
-        .prependTo($this)
-        .on("click", function() {
-          $this[searchForm.config.effect](searchForm.config.effect.speed);
-        });
-    }
-  };
+  //     $("<span class=close-search></span>")
+  //       .prependTo($this)
+  //       .on("click", function() {
+  //         $this[searchForm.config.effect](searchForm.config.effect.speed);
+  //       });
+  //   }
+  // };
 
-  searchForm.init({
-    effect: "fadeToggle",
-    speed: "300"
-  });
+  // searchForm.init({
+  //   effect: "fadeToggle",
+  //   speed: "300"
+  // });
 })($);
