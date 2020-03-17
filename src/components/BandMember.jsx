@@ -19,14 +19,7 @@ export default function BandMember({ member }) {
             <span className="mt-0">{role}</span>
             <span className="mx-2">|</span>
             <span className="mt-0">
-              <a
-                href={`https://instagram.com/${insta}`}
-                className="link-unstyled"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @{insta}
-              </a>
+              @{insta}
             </span>
           </div>
         </div>
