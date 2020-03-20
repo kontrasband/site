@@ -249,14 +249,13 @@ section.hero {
 .header .logo {
   display: inline-block;
 }
-.header .logo h2 {
-  color: #ffffff;
-  font-size: 1.6rem;
-  font-weight: 600;
+.header .logo img {
+  height: 1.6rem;
 }
 
-.header.switched-header .logo h2 {
-  color: #222222;
+.header.switched-header .logo img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 .mobile-but {
   display: inline-block;
@@ -827,8 +826,9 @@ img.background-img {
     color: #222222 !important;
   }
 
-  .header .logo h2 {
-    color: #222222 !important;
+  .header .logo img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
   }
 
   .mobile-but {
