@@ -1,14 +1,14 @@
 (function($) {
-  // Windows load
-
-  $(window).ready(function() {
+  var onLoad = function() {
     // Site loader
-
     $(".loader-inner").fadeOut();
     $(".loader")
       .delay(200)
       .fadeOut("slow");
-  });
+  };
+
+  // Windows load
+  $(window).ready(onLoad);
 
   // Scroll to
 
