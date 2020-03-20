@@ -1,15 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 
 import Body from "./components/Body";
 import Hero from "./components/Hero";
-import LatestAlbum from "./components/LatestAlbum";
-import About from "./components/About";
-import Discography from "./components/Discography";
-import BandMembers from "./components/BandMembers";
-import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import ScrollUp from "./components/ScrollUp";
+
+const LatestAlbum = lazy(() => import("./components/LatestAlbum"));
+const About = lazy(() => import("./components/About"));
+const Discography = lazy(() => import("./components/Discography"));
+const BandMembers = lazy(() => import("./components/BandMembers"));
+const Gallery = lazy(() => import("./components/Gallery"));
+const Contact = lazy(() => import("./components/Contact"));
+const Footer = lazy(() => import("./components/Footer"));
+const ScrollUp = lazy(() => import("./components/ScrollUp"));
 
 function App() {
   useEffect(() => {
@@ -21,14 +22,16 @@ function App() {
   return (
     <Body>
       <Hero />
-      <LatestAlbum />
-      <About />
-      <Discography />
-      <BandMembers />
-      <Gallery />
-      <Contact />
-      <Footer />
-      <ScrollUp />
+      <Suspense fallback={<>Loading...</>}>
+        <LatestAlbum />
+        <About />
+        <Discography />
+        <BandMembers />
+        <Gallery />
+        <Contact />
+        <Footer />
+        <ScrollUp />
+      </Suspense>
     </Body>
   );
 }

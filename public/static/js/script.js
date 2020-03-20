@@ -1,7 +1,7 @@
 (function($) {
   // Windows load
 
-  $(window).on("load", function() {
+  $(window).ready(function() {
     // Site loader
 
     $(".loader-inner").fadeOut();
