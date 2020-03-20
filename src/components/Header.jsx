@@ -37,12 +37,6 @@ export default function Header() {
         media="all"
       />
       <link
-        href="/static/css/flexslider.css"
-        rel="stylesheet"
-        type="text/css"
-        media="all"
-      />
-      <link
         href="/static/css/magnific-popup.css"
         rel="stylesheet"
         type="text/css"

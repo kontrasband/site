@@ -37,7 +37,7 @@ function App() {
         <Nav />
         <Switch>
           {routes.map(route => (
-            <Route path={route.path} exact={!!route.exact} component={route.component} />
+            <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
           ))}
         </Switch>
         <Footer />

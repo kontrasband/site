@@ -8,7 +8,7 @@ export default function Footer() {
         <Row className="justify-content-between align-items-center">
           <Col md={6}>
             <small className="small">
-              <span>&copy; 2019 all rights reserved</span>
+              <span>{`© ${new Date().getFullYear()} all rights reserved`}</span>
             </small>
           </Col>
         </Row>

@@ -9,3 +9,15 @@ div.page-container {
 .release:nth-of-type(odd) {
   background: #070708;
 }
+
+div.carousel.slide {
+  height: 100%;
+}
+
+div.carousel .carousel-inner {
+  height: 100%;
+}
+
+div.carousel-item {
+  height: 100%;
+}

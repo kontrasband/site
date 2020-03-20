@@ -1,5 +1,6 @@
 import React from "react";
-import Slide from "./Slide";
+import { Row, Container, Col, Carousel } from "react-bootstrap";
+import BackgroundImage from "./BackgroundImage";
 
 const SLIDES = [
   {
@@ -32,13 +33,35 @@ const SLIDES = [
 
 function Slider() {
   return (
-    <div className="main-slider slider flexslider">
-      <ul className="slides">
-        {SLIDES.map(slide => (
-          <Slide key={slide.id} slide={slide} />
-        ))}
-      </ul>
-    </div>
+    <Carousel controls={false} fade={true} >
+      {SLIDES.map(slide => {
+        const { id, bg, title, body, href } = slide;
+        return (
+          <Carousel.Item key={id}>
+            <BackgroundImage src={bg} className="overlay zoom" />
+            <Container className="hero-content">
+              <Row>
+                <Col sm={12} className="text-center">
+                  <h1 className="large text-whitppercase mb-0">{title}</h1>
+                  <h5 className="mb-0 text-white uppercase">{body}</h5>
+
+                  {href && (
+                    <a
+                      className="video-play-but"
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      &nbsp;
+                    </a>
+                  )}
+                </Col>
+              </Row>
+            </Container>
+          </Carousel.Item>
+        );
+      })}
+    </Carousel>
   );
 }
 
