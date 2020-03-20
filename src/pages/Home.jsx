@@ -7,9 +7,9 @@ const BandMembers = lazy(() => import("../components/BandMembers"));
 const Gallery = lazy(() => import("../components/Gallery"));
 const Contact = lazy(() => import("../components/Contact"));
 
-function Home() {
+export default function Home() {
   return (
-    <>
+    <div className="page-container">
       <Hero />
       <Suspense fallback={<>Loading...</>}>
         <LatestAlbum />
@@ -19,8 +19,6 @@ function Home() {
         <Gallery />
         <Contact />
       </Suspense>
-    </>
+    </div>
   );
 }
-
-export default Home;
