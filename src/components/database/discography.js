@@ -4,44 +4,6 @@ export default [
     title: "Velde",
     url: "http://smarturl.it/v079hy",
     img: "/static/img/artwork/velde.jpg",
-    details: [
-      {
-        key: "Title",
-        value: "Velde"
-      },
-      {
-        key: "Album",
-        value: "Ruimtevaarder"
-      },
-      {
-        key: "Released",
-        value: "20 March 2020"
-      },
-      {
-        key: "Label",
-        value: "Independent"
-      },
-      {
-        key: "Genre",
-        value: "Afrikaans Pop Rock"
-      },
-      {
-        key: "Artwork",
-        value: "@nannaventer",
-        href: "http://instagram.com/nannaventer"
-      },
-      {
-        key: "Produced",
-        value: "@joellismusic",
-        href: "http://instagram.com/joellismusic"
-      },
-      {
-
-        key: "Music Video",
-        value: "YouTube",
-        href: "https://www.youtube.com/watch?v=2OeLrsLnCio"
-      }
-    ],
     released: true,
     stores: [
       {
@@ -75,38 +37,6 @@ export default [
     title: "24",
     url: "http://smarturl.it/7qsim6",
     img: "/static/img/artwork/24.jpg",
-    details: [
-      {
-        key: "Title",
-        value: "24"
-      },
-      {
-        key: "Album",
-        value: "Single"
-      },
-      {
-        key: "Released",
-        value: "6 February 2020"
-      },
-      {
-        key: "Label",
-        value: "Independent"
-      },
-      {
-        key: "Genre",
-        value: "Afrikaans Punk Rock"
-      },
-      {
-        key: "Artwork",
-        value: "@kontrasband",
-        href: "http://instagram.com/kontrasband"
-      },
-      {
-        key: "Produced",
-        value: "@joellismusic",
-        href: "http://instagram.com/joellismusic"
-      }
-    ],
     released: true,
     stores: [
         {
@@ -140,38 +70,6 @@ export default [
     title: "Side B",
     url: "http://smarturl.it/xya64y",
     img: "/static/img/artwork/sideb.jpg",
-    details: [
-      {
-        key: "Title",
-        value: "Side B"
-      },
-      {
-        key: "Album",
-        value: "Side B"
-      },
-      {
-        key: "Released",
-        value: "3 March 2019"
-      },
-      {
-        key: "Label",
-        value: "Independent"
-      },
-      {
-        key: "Genre",
-        value: "Afrikaans Punk Rock"
-      },
-      {
-        key: "Artwork",
-        value: "@nannaventer",
-        href: "http://instagram.com/nannaventer"
-      },
-      {
-        key: "Produced",
-        value: "@joellismusic",
-        href: "http://instagram.com/joellismusic"
-      }
-    ],
     released: true,
     stores: [
       {
@@ -205,38 +103,6 @@ export default [
     title: "Side A",
     url: "http://smarturl.it/80n151",
     img: "/static/img/artwork/sidea.jpg",
-    details: [
-      {
-        key: "Title",
-        value: "Side A"
-      },
-      {
-        key: "Album",
-        value: "Side A"
-      },
-      {
-        key: "Released",
-        value: "4 December 2018"
-      },
-      {
-        key: "Label",
-        value: "Independent"
-      },
-      {
-        key: "Genre",
-        value: "Afrikaans Punk Rock"
-      },
-      {
-        key: "Artwork",
-        value: "@nannaventer",
-        href: "http://instagram.com/nannaventer"
-      },
-      {
-        key: "Produced",
-        value: "@joellismusic",
-        href: "http://instagram.com/joellismusic"
-      }
-    ],
     released: true,
     stores: [
       {

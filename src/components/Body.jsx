@@ -1,7 +1,12 @@
 import React from "react";
 
+import Preloader from "./Preloader";
+
 export default function Body(props) {
   return (
-    <div className="wrapper">{props.children}</div>
+    <>
+      <Preloader />
+      <div className="wrapper">{props.children}</div>
+    </>
   );
 }

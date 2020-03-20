@@ -1,5 +1,4 @@
 import React from "react";
-import { routes } from '../App';
 
 function Nav() {
   return (
@@ -18,38 +17,36 @@ function Nav() {
             </a>
           </div>
           <ul className="main-menu list-inline">
-            {[...routes].reverse().map(route => (
-              <li>
-                <a className="scroll list-inline-item" href={route.path}>
-                  {route.title}
-                </a>
-              </li>
-            ))}
-            {/* <li>
-              <a className="scroll list-inline-item" href="/about">
+            <li>
+              <a className="scroll list-inline-item" href="#wrapper">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="scroll list-inline-item" href="#about">
                 about
               </a>
             </li>
             <li>
-              <a className="scroll list-inline-item" href="/music">
+              <a className="scroll list-inline-item" href="#discography">
                 discography
               </a>
             </li>
             <li>
-              <a className="scroll list-inline-item" href="/band">
+              <a className="scroll list-inline-item" href="#band">
                 Band
               </a>
             </li>
             <li>
-              <a className="scroll list-inline-item" href="/gallery">
+              <a className="scroll list-inline-item" href="#gallery">
                 Gallery
               </a>
             </li>
             <li>
-              <a className="scroll list-inline-item" href="/contact">
+              <a className="scroll list-inline-item" href="#contact">
                 Contact
               </a>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
