@@ -1,0 +1,11 @@
+div.page-container {
+  flex: 1;
+}
+
+.release {
+  padding: 5rem 0;
+}
+
+.release:nth-of-type(odd) {
+  background: #070708;
+}
