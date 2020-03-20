@@ -22,9 +22,5 @@ export default  [
   {
     url: "https://listen.tidal.com/artist/8664504",
     name: "tidal"
-  },
-  // {
-  //   url: "https://www.amazon.com/gp/product/B07KY4GB56/ref=dm_ws_sp_ps_dp",
-  //   name: "amazon"
-  // }
+  }
 ]
