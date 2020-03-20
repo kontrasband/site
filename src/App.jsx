@@ -1,16 +1,20 @@
-import React, { useEffect, lazy, Suspense } from "react";
+import React, { useEffect } from "react";
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
 import Body from "./components/Body";
-import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import ScrollUp from "./components/ScrollUp";
 
-const LatestAlbum = lazy(() => import("./components/LatestAlbum"));
-const About = lazy(() => import("./components/About"));
-const Discography = lazy(() => import("./components/Discography"));
-const BandMembers = lazy(() => import("./components/BandMembers"));
-const Gallery = lazy(() => import("./components/Gallery"));
-const Contact = lazy(() => import("./components/Contact"));
-const Footer = lazy(() => import("./components/Footer"));
-const ScrollUp = lazy(() => import("./components/ScrollUp"));
+import Home from './pages';
+
+const routes = [
+  {
+    path: "/",
+    exact: true,
+    component: Home
+  }
+]
 
 function App() {
   useEffect(() => {
@@ -20,19 +24,18 @@ function App() {
   }, []);
 
   return (
-    <Body>
-      <Hero />
-      <Suspense fallback={<>Loading...</>}>
-        <LatestAlbum />
-        <About />
-        <Discography />
-        <BandMembers />
-        <Gallery />
-        <Contact />
+    <Router>
+      <Body>
+        <Nav />
+        <Switch>
+          {routes.map(route => (
+            <Route path={route.path} exact={route.exact || false} component={route.component} />
+          ))}
+        </Switch>
         <Footer />
         <ScrollUp />
-      </Suspense>
-    </Body>
+      </Body>
+    </Router>
   );
 }
 
