@@ -9,7 +9,7 @@ export default function ReleaseDetails({ details = [], stores, released }) {
           {details.map(detail => {
             const { key, value, href } = detail
             return (
-              <li>
+              <li key={key}>
                 <h5 className="uppercase list-inline-item">{key}</h5>
                 <span>
                   {href ? (

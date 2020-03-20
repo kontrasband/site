@@ -1,7 +1,10 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import { routes } from '../App';
+import { useScrollToTop } from "../utils";
 
 function Nav() {
+  useScrollToTop();
   return (
     <header className="header default">
       <div className=" left-part">
@@ -19,20 +22,15 @@ function Nav() {
           </div>
           <ul className="main-menu list-inline">
             {[...routes].reverse().map(route => (
-              <li>
-                <a className="scroll list-inline-item" href={route.path}>
+              <li key={route.path}>
+                <NavLink className="scrolllist-inline-item" to={route.path}>
                   {route.title}
-                </a>
+                </NavLink>
               </li>
             ))}
             {/* <li>
               <a className="scroll list-inline-item" href="/about">
                 about
-              </a>
-            </li>
-            <li>
-              <a className="scroll list-inline-item" href="/music">
-                discography
               </a>
             </li>
             <li>

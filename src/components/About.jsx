@@ -2,13 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ARTIST_LINKS from './database/artist_links';
 import StoreLinks from "./StoreLinks";
+import BackgroundImage from "./BackgroundImage";
 
 export default function About() {
   return (
     <section id="about" className="about overlay main">
-      <div className="background-img">
-        <img src="/static/img/gallery/Rocking Stellies-7.jpg" alt="" />
-      </div>
+      <BackgroundImage src="/static/img/gallery/Rocking Stellies-7.jpg"/>
       <Container>
         <Row className="vertical-align">
           <Col lg={5} md={12}>
