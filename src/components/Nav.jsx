@@ -1,4 +1,5 @@
 import React from "react";
+import { routes } from '../App';
 
 function Nav() {
   return (
@@ -17,12 +18,14 @@ function Nav() {
             </a>
           </div>
           <ul className="main-menu list-inline">
-            <li>
-              <a className="scroll list-inline-item" href="/">
-                Home
-              </a>
-            </li>
-            <li>
+            {[...routes].reverse().map(route => (
+              <li>
+                <a className="scroll list-inline-item" href={route.path}>
+                  {route.title}
+                </a>
+              </li>
+            ))}
+            {/* <li>
               <a className="scroll list-inline-item" href="/about">
                 about
               </a>
@@ -46,7 +49,7 @@ function Nav() {
               <a className="scroll list-inline-item" href="/contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
+import Header from "./components/Header";
 import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -9,14 +10,15 @@ import ScrollUp from "./components/ScrollUp";
 import Home from './pages/Home';
 import Music from './pages/Music';
 
-const routes = [
+export const routes = [
   {
     path: "/music",
-    exact: true,
+    title: "Discography",
     component: Music
   },
   {
     path: "/",
+    title: "Home",
     component: Home
   },
 ]
@@ -30,6 +32,7 @@ function App() {
 
   return (
     <Router>
+      <Header />
       <Body>
         <Nav />
         <Switch>

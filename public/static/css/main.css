@@ -28,10 +28,6 @@ Created by : mutationthemes
 
 /*Preloader*/
 
-div.page-container {
-  flex: 1;
-}
-
 .loader {
   background: #13181d;
   bottom: 0;
