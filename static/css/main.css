@@ -25,9 +25,7 @@ Created by : mutationthemes
 
 
 
-
 /*Preloader*/
-
 .loader {
   background: #13181d;
   bottom: 0;
@@ -116,9 +114,6 @@ Created by : mutationthemes
 /*Site wrapper*/
 .wrapper {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 /*End site wrapper*/
 /*Search form*/
