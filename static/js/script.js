@@ -46,56 +46,7 @@
     }
   });
 
-  //Hero resize
-
-  var mainHero = $(" .hero .main-slider .slides li");
-  function mainHeroResize() {
-    mainHero.css("height", $(window).height());
-  }
-
-  mainHeroResize();
-  $(window).resize(function() {
-    mainHeroResize();
-  });
-
-  // Slider
-  function startFlex() {
-    console.log("Changed URL");
-    $(".main-slider").flexslider({
-      animation: "fade",
-      slideshow: true,
-      directionNav: false,
-      controlNav: true,
-      pauseOnAction: false,
-      animationSpeed: 1000
-    });
-
-    $(".review-slider").flexslider({
-      animation: "slide",
-      slideshow: true,
-      directionNav: true,
-      controlNav: false,
-      pauseOnAction: false,
-      animationSpeed: 500
-    });
-
-    // Append images as css background
-    $(".background-img").each(function() {
-      var path = $(this)
-        .children("img")
-        .attr("src");
-      $(this)
-        .css("background-image", 'url("' + path + '")')
-        .css("background-position", "initial");
-    });
-  }
-
-  startFlex();
-
-  $(window).on("locationchanged", startFlex);
-
   // Mobile menu
-
   var mobileBtn = $(".mobile-but");
   var nav = $(".main-nav ul.main-menu");
 

@@ -224,7 +224,7 @@ section.hero {
 .header {
   padding: 0.4em 0;
 }
-.slider .slides li {
+.main-slider .slide {
   background-size: cover;
 }
 .header.default {
@@ -332,6 +332,11 @@ section.hero {
 .main-nav ul li.block-helper:last-child {
   margin-left: 0.625rem;
 }
+
+ul.main-menu {
+  padding-top: 0.5rem;
+}
+
 .main-menu li a {
   color: #ffffff;
   position: relative;
@@ -986,7 +991,7 @@ img.background-img {
     max-height: 400px;
   }
 
-  .hero .main-slider .slides li {
+  .hero .main-slider .slide {
     height: 500px !important;
   }
 
