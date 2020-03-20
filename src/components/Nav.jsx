@@ -5,7 +5,7 @@ function Nav() {
     <header className="header default">
       <div className=" left-part">
         <a className="logo scroll" href="#wrapper">
-          <h2 className="mb-0 uppercase">Kontras</h2>
+          <img src={`${process.env.PUBLIC_URL}/static/img/kontras-logo-white.png`} alt="logo" className="mb-0 mt-2" />
         </a>
       </div>
       <div className="right-part">
