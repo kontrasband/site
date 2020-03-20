@@ -1,38 +1,9 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import StoreLinks from "./StoreLinks";
+import { getLatestRelease } from "../utils";
 
-const RELEASE_LINKS = [
-  {
-    id: 0,
-    link: "https://itunes.apple.com/za/artist/kontras/1445772282",
-    icon: "socicon-apple",
-    name: "apple"
-  },
-  {
-    id: 1,
-    link: "https://play.google.com/store/music/artist/Kontras?id=Aanobdoml5f2absa7i3ooltrm3q&hl=en",
-    icon: "socicon-play",
-    name: "play"
-  },
-  {
-    id: 2,
-    link: "https://www.amazon.com/gp/product/B07KY4GB56/ref=dm_ws_sp_ps_dp",
-    icon: "socicon-amazon",
-    name: "amazon"
-  },
-  {
-    id: 3,
-    link: "https://open.spotify.com/artist/13mo5g6PR09u3Rq8bEstY2?si=sytJqeERQw2EI8u1mZn0UQ",
-    icon: "socicon-spotify",
-    name: "spotify"
-  },
-  {
-    id: 4,
-    link: "https://www.youtube.com/channel/UC3PTVGTBJz9UmWwOxhS1i9g",
-    icon: "socicon-youtube",
-    name: "youtube"
-  },
-]
+const RELEASE = getLatestRelease();
 
 export default function LatestAlbum() {
   return (
@@ -52,7 +23,9 @@ export default function LatestAlbum() {
       <Container>
         <Row className="justify-content-center">
           <Col xs={12} md={6}>
-            <img src={process.env.PUBLIC_URL + "/static/img/artwork/velde.jpg"} alt="Latest Release" />
+            <a href={RELEASE.url} target="_blank" rel="noopener noreferrer">
+              <img src={`${process.env.PUBLIC_URL}${RELEASE.img}`} alt="Latest Release" className="animated" />
+            </a>
           </Col>
           <Col xs={12} md={6}>
             <div className="block-content gap-one-bottom-sm">
@@ -92,15 +65,7 @@ export default function LatestAlbum() {
                   </li>
                 </ul>
               </div>
-              {/* <ul className="block-social list-inline mt-4">
-                {RELEASE_LINKS.map(link => (
-                  <li key={link.id} className="list-inline-item mr-0">
-                    <a href={link.link}>
-                      <i className={link.icon} />
-                    </a>
-                  </li>
-                ))}
-              </ul> */}
+              <StoreLinks stores={RELEASE.stores} show={RELEASE.released} className="mt-4" />
             </div>
           </Col>
         </Row>

@@ -20,14 +20,14 @@ const SLIDES = [
     "title": "Velde",
     "body": "Kyk hom op YouTube",
     "href": "https://www.youtube.com/watch?v=2OeLrsLnCio"
+  },
+  {
+    "id": 4,
+    "bg": "/static/img/artwork/velde-banner.jpg",
+    "title": "Velde",
+    "body": "Stream dit nou op alle platforms",
+    "href": "http://smarturl.it/v079hy"
   }
-  // {
-  //   "id": 4,
-  //   "bg": "/static/img/artwork/velde-banner.jpg",
-  //   "title": "Velde",
-  //   "body": "Kry hom nou op alle platforms",
-  //   "href": "http://smarturl.it/xya64y"
-  // }
 ]
 
 function Slider() {

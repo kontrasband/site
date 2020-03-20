@@ -1,5 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import artist_links from "./database/artist_links";
+import StoreLinks from "./StoreLinks";
+
+const CONTACT_LINKS = [
+  {
+    url: "https://web.facebook.com/kontrasband/",
+    name: "facebook"
+  },
+  {
+    url: "https://instagram.com/kontrasband/",
+    name: "instagram"
+  },
+  ...artist_links
+]
 
 export default function Contact() {
   return (
@@ -23,13 +37,6 @@ export default function Contact() {
                 <div className="card text-center">
                   <div className="card-body">
                     <Row>
-                      {/* <Col md={4}>
-                        <h2 className="uppercase">Info</h2>
-                        <p className="mb-0">
-                          <em className="uppercase h5 opc-70">Daniel Botha</em>
-                          <a href="tel:+27605266825">(+27) 60 526 6825</a>
-                        </p>
-                      </Col> */}
                       <Col md={{ span: 10, offset: 1 }}>
                         <h2 className="uppercase ">Bookings</h2>
                         <p className="mb-0">
@@ -37,27 +44,16 @@ export default function Contact() {
                             Arnold van der Walt
                           </em>
                           <a href="tel:+27762157185">(+27) 76 215 7185</a>
-                          <br/>
-                    <a
-                      className="text-center"
-                      href="mailto:info@kontrasband.com"
-                    >
-                      info@kontrasband.com
-                    </a>
+                          <br />
+                          <a
+                            className="text-center"
+                            href="mailto:info@kontrasband.com"
+                          >
+                            info@kontrasband.com
+                          </a>
                         </p>
                       </Col>
-                      {/* <Col md={4}>
-                        <h2 className="uppercase">Press</h2>
-                        <p className="mb-0">
-                          <em className="uppercase h5 opc-70">
-                            Andrew Veldman
-                          </em>
-                          <a href="tel:+27827986803">(+27) 82 798 6803</a>
-                        </p>
-                      </Col> */}
                     </Row>
-
-                    {/* <h2 className="uppercase mt-5">Email</h2> */}
                   </div>
                 </div>
               </Col>
@@ -66,33 +62,7 @@ export default function Contact() {
         </Row>
         <Row className="justify-content-center">
           <Col xs={12}>
-            <ul className="block-social list-inline text-center mt-4">
-              <li className="list-inline-item">
-                <a href="https://web.facebook.com/kontrasband/">
-                  <i className="socicon-facebook" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://www.instagram.com/kontrasband/">
-                  <i className="socicon-instagram" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://www.youtube.com/channel/UC3PTVGTBJz9UmWwOxhS1i9g">
-                  <i className="socicon-youtube" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://itunes.apple.com/za/artist/kontras/1445772282">
-                  <i className="socicon-apple" />
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="https://www.amazon.com/gp/product/B07KY4GB56/ref=dm_ws_sp_ps_dp">
-                  <i className="socicon-amazon" />
-                </a>
-              </li>
-            </ul>
+            <StoreLinks className="text-center mt-4" stores={CONTACT_LINKS} />
           </Col>
         </Row>
       </Container>
