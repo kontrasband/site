@@ -59,30 +59,45 @@
   });
 
   // Slider
+  function startFlex() {
+    console.log("Changed URL");
+    $(".main-slider").flexslider({
+      animation: "fade",
+      slideshow: true,
+      directionNav: false,
+      controlNav: true,
+      pauseOnAction: false,
+      animationSpeed: 1000
+    });
 
-  $(".main-slider").flexslider({
-    animation: "fade",
-    slideshow: true,
-    directionNav: false,
-    controlNav: true,
-    pauseOnAction: false,
-    animationSpeed: 1000
-  });
+    $(".review-slider").flexslider({
+      animation: "slide",
+      slideshow: true,
+      directionNav: true,
+      controlNav: false,
+      pauseOnAction: false,
+      animationSpeed: 500
+    });
 
-  $(".review-slider").flexslider({
-    animation: "slide",
-    slideshow: true,
-    directionNav: true,
-    controlNav: false,
-    pauseOnAction: false,
-    animationSpeed: 500
-  });
+    // Append images as css background
+    $(".background-img").each(function() {
+      var path = $(this)
+        .children("img")
+        .attr("src");
+      $(this)
+        .css("background-image", 'url("' + path + '")')
+        .css("background-position", "initial");
+    });
+  }
+
+  startFlex();
+
+  $(window).on("locationchanged", startFlex);
 
   // Mobile menu
 
   var mobileBtn = $(".mobile-but");
   var nav = $(".main-nav ul.main-menu");
-  var navHeight = nav.height();
 
   $(mobileBtn).on("click", function() {
     $(".toggle-mobile-but").toggleClass("active");
@@ -97,17 +112,6 @@
       nav.removeAttr("style");
       $(".main-nav li a").removeClass("mobile");
     }
-  });
-
-  // Append images as css background
-
-  $(".background-img").each(function() {
-    var path = $(this)
-      .children("img")
-      .attr("src");
-    $(this)
-      .css("background-image", 'url("' + path + '")')
-      .css("background-position", "initial");
   });
 
   //  // Track list player

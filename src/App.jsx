@@ -6,14 +6,19 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import ScrollUp from "./components/ScrollUp";
 
-import Home from './pages';
+import Home from './pages/Home';
+import Music from './pages/Music';
 
 const routes = [
   {
-    path: "/",
+    path: "/music",
     exact: true,
+    component: Music
+  },
+  {
+    path: "/",
     component: Home
-  }
+  },
 ]
 
 function App() {
@@ -29,7 +34,7 @@ function App() {
         <Nav />
         <Switch>
           {routes.map(route => (
-            <Route path={route.path} exact={route.exact || false} component={route.component} />
+            <Route path={route.path} exact={!!route.exact} component={route.component} />
           ))}
         </Switch>
         <Footer />
