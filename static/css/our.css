@@ -28,3 +28,38 @@ div.carousel-item {
   line-height: 1.8rem;
   letter-spacing: 1px;
 }
+
+.band-about {
+  margin-bottom: 6rem;
+}
+
+.band-about > p {
+  font-size: 1rem !important;
+  text-align: justify;
+}
+
+b {
+  font-weight: 600;
+}
+
+blockquote.blockquote {
+  text-align: center;
+  width: 80%;
+  margin: 1rem auto 2rem;
+}
+
+blockquote > * {
+  font-weight: 400;
+  font-size: 0.9rem !important;
+}
+
+i {
+  font-style: italic;
+}
+
+.photo-credit {
+  color: #a2a2a2;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
