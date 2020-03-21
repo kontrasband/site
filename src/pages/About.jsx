@@ -6,10 +6,13 @@ import team from '../components/database/team';
 import { Row, Container } from 'react-bootstrap';
 import BandMember from '../components/BandMember';
 import MemberAbout from '../components/MemberAbout';
+import { useWindowSize } from '../utils';
 
 const The_Team = [...band, ...team];
 
 export default function About() {
+  const { width } = useWindowSize();
+
   return (
     <Page name="about">
       <PageTitle title="About Us" />
@@ -73,10 +76,10 @@ export default function About() {
       <PageTitle title="The Team" subtitle />
               <Container>
       {The_Team.map(member => {
-        if (member.align === "left") {
+        if (member.align === "left" || width < 768) {
           return (
             <Row key={member.name}>
-              <BandMember member={member} xs={6} md={4} lg={3} />
+              <BandMember member={member} xs={12} md={5} lg={4} />
               <MemberAbout member={member}/>
             </Row>
           )
@@ -85,7 +88,7 @@ export default function About() {
         return (
           <Row key={member.name}>
             <MemberAbout member={member}/>
-            <BandMember member={member} xs={6} md={4} lg={3} />
+            <BandMember member={member} xs={12} md={5} lg={4} />
           </Row>
         )
       })}

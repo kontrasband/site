@@ -11,7 +11,7 @@ export default [
       { key: "Top Intl Artist", value: "Nothing But Thieves", },
       { key: "Top Local Artist", value: "Foto Na Dans", },
       { key: "Top Album", value: "ODESZA - A Moment Apart (Deluxe)", },
-      { key: "quote", value: "Read. Understand. Reduce the stupid." },
+      { key: "quote", value: "\"Read. Understand. Reduce the stupid.\"" },
     ]
   },
   {
@@ -56,7 +56,7 @@ export default [
       { key: "Top Intl Artist", value: "Johnny Foreigner", },
       { key: "Top Local Artist", value: "Yndian Mynah", },
       { key: "Top Album", value: "The Superweaks - The World Is A Terrible Place And I Hate Myself And I Want To Die", },
-      { key: "quote", value: "Never norm out!" },
+      { key: "quote", value: "\"Never norm out!\"" },
     ]
   },
 ];
