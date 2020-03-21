@@ -7,7 +7,7 @@ export const getLatestRelease = () => {
 }
 
 export const getReleaseByName = name => {
-  return RELEASES.find(release => release.title.toLowerCase() === name.toLowerCase());
+  return RELEASES.find(release => release.title.toLowerCase() === name.toLowerCase()) || {};
 }
 
 export const useWindowSize = () => {

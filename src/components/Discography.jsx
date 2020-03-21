@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import RELEASES from './database/discography';
 import StoreLinks from "./StoreLinks";
+import ReleaseArtwork from "./ReleaseArtwork";
 
 export default function Discography() {
   return (
@@ -26,14 +27,8 @@ export default function Discography() {
                 <a className="link" href={release.url}>
                   View Release ›
                 </a>
-                <a href={release.url}>
-                  <img
-                    className="animated"
-                    src={release.img}
-                    alt=""
-                  />
-                </a>
-                <StoreLinks stores={release.stores} show={release.released} wrapperProps={{ className: "block-social list-inline mb-md-3" }} />
+                <ReleaseArtwork url={release.url} img={release.img} />
+                <StoreLinks stores={release.stores} show={release.released} className="mb-md-3"/>
               </div>
             </Col>
           ))}

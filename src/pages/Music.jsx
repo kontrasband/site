@@ -5,6 +5,7 @@ import RELEASES from '../components/database/discography';
 import StoreLinks from '../components/StoreLinks';
 import ReleaseDetails from '../components/ReleaseDetails';
 import PageTitle from '../components/PageTitle';
+import ReleaseArtwork from '../components/ReleaseArtwork';
 
 export default function Music() {
   return (
@@ -21,15 +22,12 @@ export default function Music() {
                 </a>
               </Col>
               <Col xs={12} md={6} lg={6} key={release.id}>
-                <div className="block-album block-content">
-                  <a href={release.url}>
-                    <img
-                      className="animated"
-                      src={release.img}
-                      alt=""
-                    />
-                  </a>
-                  <StoreLinks stores={release.stores} show={release.released} className="mb-md-3"/>
+                <div classname="block-album block-content">
+                  <ReleaseArtwork
+                    url={release.url}
+                    img={release.img}
+                  />
+                  <StoreLinks stores={release.stores} show={release.released} classname="mb-md-3"/>
                 </div>
               </Col>
               <Col xs={12} md={6}>
