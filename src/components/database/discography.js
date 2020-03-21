@@ -40,6 +40,12 @@ export default [
         key: "Music Video",
         value: "YouTube",
         href: "https://www.youtube.com/watch?v=2OeLrsLnCio"
+      },
+      {
+
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/velde"
       }
     ],
     released: true,
@@ -105,6 +111,12 @@ export default [
         key: "Produced",
         value: "@joellismusic",
         href: "http://instagram.com/joellismusic"
+      },
+      {
+
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/24"
       }
     ],
     released: true,
@@ -170,6 +182,12 @@ export default [
         key: "Produced",
         value: "@joellismusic",
         href: "http://instagram.com/joellismusic"
+      },
+      {
+
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/side-b"
       }
     ],
     released: true,
@@ -235,6 +253,12 @@ export default [
         key: "Produced",
         value: "@joellismusic",
         href: "http://instagram.com/joellismusic"
+      },
+      {
+
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/side-a"
       }
     ],
     released: true,

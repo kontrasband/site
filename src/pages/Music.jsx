@@ -4,23 +4,15 @@ import Page from './Page'
 import RELEASES from '../components/database/discography';
 import StoreLinks from '../components/StoreLinks';
 import ReleaseDetails from '../components/ReleaseDetails';
+import PageTitle from '../components/PageTitle';
+import ReleaseArtwork from '../components/ReleaseArtwork';
 
 export default function Music() {
   return (
     <Page name="music">
-      <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} md={10} lg={9}>
-            <div className="block-content text-center gap-one-bottom-md">
-              <div className="block-title ">
-                <h1 className="uppercase">Discography</h1>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <PageTitle title="Discography" />
       {RELEASES.map(release => (
-        <div className="release">
+        <div className="even-odd-bg">
           <Container>
             <Row>
               <Col xs={12}>
@@ -31,14 +23,11 @@ export default function Music() {
               </Col>
               <Col xs={12} md={6} lg={6} key={release.id}>
                 <div className="block-album block-content">
-                  <a href={release.url}>
-                    <img
-                      className="animated"
-                      src={release.img}
-                      alt=""
-                    />
-                  </a>
-                  <StoreLinks stores={release.stores} show={release.released} className="mb-md-3"/>
+                  <ReleaseArtwork
+                    url={release.url}
+                    img={release.img}
+                  />
+                  <StoreLinks stores={release.stores} show={release.released} classname="mb-md-3"/>
                 </div>
               </Col>
               <Col xs={12} md={6}>

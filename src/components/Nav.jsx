@@ -1,16 +1,17 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import { routes } from '../App';
 import { useScrollToTop } from "../utils";
+import { routes }  from '../App';
+
 
 function Nav() {
   useScrollToTop();
   return (
     <header className="header default">
       <div className=" left-part">
-        <a className="logo scroll" href="#wrapper">
+        <NavLink className="logo scroll" to="/">
           <img src={`${process.env.PUBLIC_URL}/static/img/kontras-logo-white.png`} alt="logo" className="mb-0 mt-2" />
-        </a>
+        </NavLink>
       </div>
       <div className="right-part">
         <nav className="main-nav">
