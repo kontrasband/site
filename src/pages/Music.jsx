@@ -4,23 +4,14 @@ import Page from './Page'
 import RELEASES from '../components/database/discography';
 import StoreLinks from '../components/StoreLinks';
 import ReleaseDetails from '../components/ReleaseDetails';
+import PageTitle from '../components/PageTitle';
 
 export default function Music() {
   return (
     <Page name="music">
-      <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} md={10} lg={9}>
-            <div className="block-content text-center gap-one-bottom-md">
-              <div className="block-title ">
-                <h1 className="uppercase">Discography</h1>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <PageTitle title="Discography" />
       {RELEASES.map(release => (
-        <div className="release">
+        <div className="even-odd-bg">
           <Container>
             <Row>
               <Col xs={12}>

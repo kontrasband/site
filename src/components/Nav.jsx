@@ -1,7 +1,21 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import { routes } from '../App';
 import { useScrollToTop } from "../utils";
+
+const routes = [
+  {
+    path: '/',
+    title: "Home",
+  },
+  {
+    path: "/lyrics",
+    title: "Lyrics"
+  },
+  {
+    path: "/music",
+    title: "Discography"
+  }
+]
 
 function Nav() {
   useScrollToTop();
@@ -21,7 +35,7 @@ function Nav() {
             </a>
           </div>
           <ul className="main-menu list-inline">
-            {[...routes].reverse().map(route => (
+            {routes.map(route => (
               <li key={route.path}>
                 <NavLink className="scrolllist-inline-item" to={route.path}>
                   {route.title}

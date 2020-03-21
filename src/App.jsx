@@ -9,8 +9,14 @@ import ScrollUp from "./components/ScrollUp";
 
 import Home from './pages/Home';
 import Music from './pages/Music';
+import Lyrics from "./pages/Lyrics";
 
 export const routes = [
+  {
+    path: "/lyrics",
+    title: "Lyrics",
+    component: Lyrics
+  },
   {
     path: "/music",
     title: "Discography",

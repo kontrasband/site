@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import StoreLinks from './StoreLinks'
 
 export default function ReleaseDetails({ details = [], stores, released }) {
@@ -7,14 +8,16 @@ export default function ReleaseDetails({ details = [], stores, released }) {
       <div className="block-album-info">
         <ul>
           {details.map(detail => {
-            const { key, value, href } = detail
+            const { key, value, href, navlink } = detail
             return (
               <li key={key}>
                 <h5 className="uppercase list-inline-item">{key}</h5>
                 <span>
+                  {navlink ? <NavLink to={navlink}>{value}</NavLink> : null}
                   {href ? (
                     <a href={href} target="_blank" rel="noopener noreferrer">{value}</a>
-                  ) : value}
+                  ) : null}
+                  {!navlink && !href ? value : null}
                 </span>
               </li>
             )

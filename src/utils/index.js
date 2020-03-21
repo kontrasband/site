@@ -3,7 +3,11 @@ import { useLocation } from "react-router-dom";
 import RELEASES from '../components/database/discography';
 
 export const getLatestRelease = () => {
-    return RELEASES[0];
+  return RELEASES[0];
+}
+
+export const getReleaseByName = name => {
+  return RELEASES.find(release => release.title.toLowerCase() === name.toLowerCase());
 }
 
 export const useWindowSize = () => {
