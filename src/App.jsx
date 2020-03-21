@@ -9,8 +9,14 @@ import Footer from "./components/Footer";
 import Home from './pages/Home';
 import Music from './pages/Music';
 import Lyrics from "./pages/Lyrics";
+import AboutPage from "./pages/About";
 
 export const routes = [
+  {
+    path: "/about",
+    title: "About",
+    component: AboutPage
+  },
   {
     path: "/lyrics",
     title: "Lyrics",
