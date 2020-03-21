@@ -1,10 +1,13 @@
 import React from 'react'
 import Page from './Page'
 import PageTitle from '../components/PageTitle';
-import BAND_MEMBERS from '../components/database/band_members';
+import band from '../components/database/band_members';
+import team from '../components/database/team';
 import { Row, Container } from 'react-bootstrap';
 import BandMember from '../components/BandMember';
 import MemberAbout from '../components/MemberAbout';
+
+const The_Team = [...band, ...team];
 
 export default function About() {
   return (
@@ -37,13 +40,13 @@ export default function About() {
           few.
         </p>
 
-        <blockquote class="blockquote">
-          <p class="mb-0">
+        <blockquote className="blockquote">
+          <p className="mb-0">
             Met hul unieke talent wat inderdaad in kontras is met so baie afgewaterde Afrikaanse musiek wat al menige oordrom of
             twee al laat bars het, is dit geen wonder dat <b>Kontras</b> se invloede strek vanaf punk, pop-punk, alternatiewe musiek en nog
             meer nie. 'n Groep wat verseker met geen andere vergelyk kan word nie!
           </p>
-          <footer class="blockquote-footer">Ian Bredenkamp Media</footer>
+          <footer className="blockquote-footer">Ian Bredenkamp Media</footer>
         </blockquote>
 
         <p>
@@ -67,32 +70,26 @@ export default function About() {
           the likes of <b>Fokofpolisiekar</b>, <b>Jack Parow</b>, <b>The Plastics</b>, <b>Willim Welsyn</b>, <b>The Kiffness</b>, <b>Straatligkinders</b>, <b>Early B</b>, <b>Van Pletzen</b>, <b>YoungstaCPT</b>, <b>Tasché</b>, and <b>Die Heuwels Fantasties</b> to name but a few.
         </p>
       </Container>
-      {/* <PageTitle title="The Team" subtitle />
-      {BAND_MEMBERS.map(member => {
+      <PageTitle title="The Team" subtitle />
+              <Container>
+      {The_Team.map(member => {
         if (member.align === "left") {
           return (
-            <div>
-              <Container>
-                <Row>
-                  <BandMember member={member} xs={6} md={4} lg={3} />
-                  <MemberAbout member={member}/>
-                </Row>
-              </Container>
-            </div>
+            <Row key={member.name}>
+              <BandMember member={member} xs={6} md={4} lg={3} />
+              <MemberAbout member={member}/>
+            </Row>
           )
         }
 
         return (
-          <div>
-            <Container>
-              <Row>
-                <MemberAbout member={member}/>
-                <BandMember member={member} xs={6} md={4} lg={3} />
-              </Row>
-            </Container>
-          </div>
+          <Row key={member.name}>
+            <MemberAbout member={member}/>
+            <BandMember member={member} xs={6} md={4} lg={3} />
+          </Row>
         )
-      })} */}
+      })}
+      </Container>
     </Page>
   )
 }
