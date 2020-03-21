@@ -13,8 +13,9 @@ import AboutPage from "./pages/About";
 
 export const routes = [
   {
-    path: "/about",
+    path: "/about-us",
     title: "About",
+    exact: true,
     component: AboutPage
   },
   {
