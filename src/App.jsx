@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-import ScrollUp from "./components/ScrollUp";
 
 import Home from './pages/Home';
 import Music from './pages/Music';
@@ -47,7 +46,6 @@ function App() {
           ))}
         </Switch>
         <Footer />
-        <ScrollUp />
       </Body>
     </Router>
   );

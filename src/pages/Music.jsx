@@ -22,7 +22,7 @@ export default function Music() {
                 </a>
               </Col>
               <Col xs={12} md={6} lg={6} key={release.id}>
-                <div classname="block-album block-content">
+                <div className="block-album block-content">
                   <ReleaseArtwork
                     url={release.url}
                     img={release.img}

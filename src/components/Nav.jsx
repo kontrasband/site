@@ -1,30 +1,17 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 import { useScrollToTop } from "../utils";
+import { routes }  from '../App';
 
-const routes = [
-  {
-    path: '/',
-    title: "Home",
-  },
-  {
-    path: "/lyrics",
-    title: "Lyrics"
-  },
-  {
-    path: "/music",
-    title: "Discography"
-  }
-]
 
 function Nav() {
   useScrollToTop();
   return (
     <header className="header default">
       <div className=" left-part">
-        <a className="logo scroll" href="#wrapper">
+        <NavLink className="logo scroll" to="/">
           <img src={`${process.env.PUBLIC_URL}/static/img/kontras-logo-white.png`} alt="logo" className="mb-0 mt-2" />
-        </a>
+        </NavLink>
       </div>
       <div className="right-part">
         <nav className="main-nav">
@@ -35,7 +22,7 @@ function Nav() {
             </a>
           </div>
           <ul className="main-menu list-inline">
-            {routes.map(route => (
+            {[...routes].reverse().map(route => (
               <li key={route.path}>
                 <NavLink className="scrolllist-inline-item" to={route.path}>
                   {route.title}
