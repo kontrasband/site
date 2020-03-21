@@ -1,26 +1,62 @@
 export default [
-  Arnold:
-  1. Mossel Bay
-  2. Radio Programme Manager
-  3. Nothing But Thieves
-  4. Foto Na Dans
-  5. A Moment Apart (Deluxe) by ODESZA
-  6. "Read. Understand. Reduce the stupid."
-
-  Ian:
-  1. Paarl
-  2. Software Engineer
-  3. John Mayer (surely hoef dit nie 'n band te wees nie?)
-  4. Hugo Veldsman & The Rendezvous
-  5. John Mayer - Where The Light Is Live at the Nokia Theatre
-  6. "Worrying is like a rocking chair. It gives you something to do, but it doesn’t get you anywhere." - Van Wilder
-
-  Nanna:
-  1. Bellville
-  2. Artstronaut
-  3. Johnny Foreigbee
-  4. Yndian Mynah
-  5. "The world is a terrible place and I hate myself and I want to die" - The Superweaks
-  6. "Never norm out!"
-
-]
+  {
+    name: "Arnold van der Walt",
+    role: "Manager",
+    align: "left",
+    insta: "disarnold",
+    img: "/static/img/team/arnold.jpg",
+    about: [
+      { key: "hometown", value: "Mossel Bay", },
+      { key: "profession", value: "Radio Programme Manager", },
+      { key: "Top Intl Artist", value: "Nothing But Thieves", },
+      { key: "Top Local Artist", value: "Foto Na Dans", },
+      { key: "Top Album", value: "ODESZA - A Moment Apart (Deluxe)", },
+      { key: "quote", value: "\"Read. Understand. Reduce the stupid.\"" },
+    ]
+  },
+  {
+    name: "Justin Reinecke",
+    role: "Camera",
+    align: "right",
+    insta: "justin_reinecke_adv",
+    img: "/static/img/team/justin.jpg",
+    about: [
+      { key: "hometown", value: "Durbanville", },
+      { key: "profession", value: "Filmmaker/photographer", },
+      { key: "Top Intl Artist", value: "Kaleo", },
+      { key: "Top Local Artist", value: "Spoegwolf", },
+      { key: "Top Album", value: "Speogwolf - Koma", },
+      { key: "quote", value: "\"Don't take shit too seriously\"" },
+    ]
+  },
+  {
+    name: "Ian Neethling",
+    role: "Merch Guy",
+    align: "left",
+    insta: "neethling.io",
+    img: "/static/img/team/ian.jpg",
+    about: [
+      { key: "hometown", value: "Paarl", },
+      { key: "profession", value: "Software Engineer", },
+      { key: "Top Intl Artist", value: "John Mayer", },
+      { key: "Top Local Artist", value: "Hugo Veldsman & The Rendezvous", },
+      { key: "Top Album", value: "John Mayer - Where The Light Is Live at the Nokia Theatre", },
+      { key: "quote", value: "\"Worrying is like a rocking chair. It gives you something to do, but it doesn’t get you anywhere.\" - Van Wilder" },
+    ]
+  },
+  {
+    name: "Nanna Venter",
+    role: "Designer",
+    align: "right",
+    insta: "nannaventer",
+    img: "/static/img/team/nanna.jpg",
+    about: [
+      { key: "hometown", value: "Bellville", },
+      { key: "profession", value: "Artstronaut", },
+      { key: "Top Intl Artist", value: "Johnny Foreigner", },
+      { key: "Top Local Artist", value: "Yndian Mynah", },
+      { key: "Top Album", value: "The Superweaks - The World Is A Terrible Place And I Hate Myself And I Want To Die", },
+      { key: "quote", value: "\"Never norm out!\"" },
+    ]
+  },
+];
