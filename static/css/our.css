@@ -2,11 +2,11 @@ div.page-container {
   flex: 1;
 }
 
-.release {
+.even-odd-bg {
   padding: 5rem 0;
 }
 
-.release:nth-of-type(odd) {
+.even-odd-bg:nth-of-type(odd) {
   background: #070708;
 }
 
@@ -20,4 +20,11 @@ div.carousel .carousel-inner {
 
 div.carousel-item {
   height: 100%;
+}
+
+.lyrics-container {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
 }

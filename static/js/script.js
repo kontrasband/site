@@ -50,6 +50,17 @@
   var mobileBtn = $(".mobile-but");
   var nav = $(".main-nav ul.main-menu");
 
+
+
+  $(".main-nav ul.main-menu li a").on("click", function()  {
+    var w = $(window).width();
+    if (w <= 990) {
+      $(".toggle-mobile-but").toggleClass("active");
+      nav.slideToggle();
+      $(".main-nav li a").addClass("mobile");
+    }
+  });
+
   $(mobileBtn).on("click", function() {
     $(".toggle-mobile-but").toggleClass("active");
     nav.slideToggle();
