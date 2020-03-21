@@ -13,6 +13,7 @@ export default function About() {
       <PageTitle title="The Band" subtitle />
       <Container className="band-about">
         <img src="/static/img/band.jpg" alt="" className="w-100" />
+        <footer className="photo-credit">Photo by Paige Fiddes</footer>
         <p>
           South Africa's latest sensation, <b>Kontras</b>, is back with a brand new single, <b>'Velde'</b>; the first release from
           their upcoming debut album, <i>Ruimtevaarder</i>, set to be released in early September. If you are a fan of
@@ -66,7 +67,7 @@ export default function About() {
           the likes of <b>Fokofpolisiekar</b>, <b>Jack Parow</b>, <b>The Plastics</b>, <b>Willim Welsyn</b>, <b>The Kiffness</b>, <b>Straatligkinders</b>, <b>Early B</b>, <b>Van Pletzen</b>, <b>YoungstaCPT</b>, <b>Tasché</b>, and <b>Die Heuwels Fantasties</b> to name but a few.
         </p>
       </Container>
-      <PageTitle title="The Team" subtitle />
+      {/* <PageTitle title="The Team" subtitle />
       {BAND_MEMBERS.map(member => {
         if (member.align === "left") {
           return (
@@ -91,7 +92,7 @@ export default function About() {
             </Container>
           </div>
         )
-      })}
+      })} */}
     </Page>
   )
 }

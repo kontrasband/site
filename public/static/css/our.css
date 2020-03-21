@@ -53,10 +53,13 @@ blockquote > * {
   font-size: 0.9rem !important;
 }
 
-blockquote footer.blockquote-footer {
-  /* color: #fff; */
-}
-
 i {
   font-style: italic;
+}
+
+.photo-credit {
+  color: #a2a2a2;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
 }
