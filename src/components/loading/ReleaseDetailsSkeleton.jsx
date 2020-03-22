@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 import Skeleton from 'react-loading-skeleton';
 
 const sections = [
@@ -13,6 +12,7 @@ const sections = [
   "Music Video",
   "Lyrics",
 ]
+
 export default function ReleaseDetailsSkeleton() {
   return (
     <div className="block-content gap-one-bottom-sm">
