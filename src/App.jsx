@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-
 import Home from './pages/Home';
-import Music from './pages/Music';
-import Lyrics from "./pages/Lyrics";
-import AboutPage from "./pages/About";
+import Page from "./pages/Page";
+
+const Music = lazy(() => import('./pages/Music'));
+const Lyrics = lazy(() => import("./pages/Lyrics"));
+const AboutPage = lazy(() => import("./pages/About"));
 
 export const routes = [
   {
@@ -47,11 +47,13 @@ function App() {
       <Header />
       <Body>
         <Nav />
-        <Switch>
-          {routes.map(route => (
-            <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
-          ))}
-        </Switch>
+        <Suspense fallback={<Page />}>
+          <Switch>
+            {routes.map(route => (
+              <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
+            ))}
+          </Switch>
+        </Suspense>
         <Footer />
       </Body>
     </Router>
