@@ -10,7 +10,9 @@ export default function VierEnTwintig() {
   return (
     <>
       <PageTitle title={release.title} />
-      <Release release={release} md={4} />
+      <div className="gap-one-bottom-md">
+        <Release release={release} md={4} />
+      </div>
       <div className="even-odd-bg">
         <PageTitle title="24" subtitle/>
         <Container className="lyrics-container">

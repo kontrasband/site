@@ -10,7 +10,9 @@ export default function SideB() {
   return (
     <>
       <PageTitle title={release.title} />
-      <Release release={release} md={4} />
+      <div className="gap-one-bottom-md">
+        <Release release={release} md={4} />
+      </div>
       <div className="even-odd-bg">
         <PageTitle title="Raak 'n bietjie fucked" subtitle/>
         <Container className="lyrics-container">
