@@ -41,7 +41,7 @@ export default function Velde() {
           <br/>
           Monsters; groot oë<br/>
           Loop geboë, word so groot<br/>
-          Die lafhard<br/>
+          Die lafaard<br/>
           Kyk wie lag hard<br/>
           Sal die pad vat<br/>
           Wat ons altyd verloor<br/>
