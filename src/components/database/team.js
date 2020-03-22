@@ -25,7 +25,7 @@ export default [
       { key: "profession", value: "Filmmaker/photographer", },
       { key: "Top Intl Artist", value: "Kaleo", },
       { key: "Top Local Artist", value: "Spoegwolf", },
-      { key: "Top Album", value: "Speogwolf - Koma", },
+      { key: "Top Album", value: "Spoegwolf - Koma", },
       { key: "quote", value: "\"Don't take shit too seriously\"" },
     ]
   },
