@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
+import Image from './image/Image';
 
 export default function BandMember({ member, ...rest }) {
   const { name, role, img, insta } = member;
@@ -13,7 +14,7 @@ export default function BandMember({ member, ...rest }) {
         rel="noopener noreferrer"
       >
         <div className="block-member">
-          <img src={`${process.env.PUBLIC_URL}${img}`} alt={name} />
+          <Image src={`${process.env.PUBLIC_URL}${img}`} alt={name} paddingTop="150%" />
           <div className="member-info">
             <h6 className="uppercase mb-0 ">{name}</h6>
             <span className="mt-0">{role}</span>

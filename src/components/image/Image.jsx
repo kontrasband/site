@@ -1,32 +1,13 @@
 import React, { useState } from 'react'
-import LazyLoad from 'react-lazyload'
-import Skeleton from 'react-loading-skeleton';
-import './style.css';
+import ImageSkeleton from '../loading/ImageSkeleton';
 
-export default function Image({ height = '100%', src, placeholder, alt, ...rest}) {
-  const [loaded, setLoaded] = useState(false);
-
-  if (!loaded)  {
-    return (
-      <div
-        className="iron-image__container"
-        style={{ backgroundImage: `url(${placeholder})` }}
-      >
-        <img
-          className={`iron-image ${loaded && 'iron-image--fade-in'}`}
-          alt={alt}
-          src={src}
-          onLoad={() => setLoaded(true)}
-        />
-      </div>
-    );
-  }
+export default function Image({ src, alt, className, paddingTop, style, ...rest }) {
+  const [display, setDisplay] = useState('none');
 
   return (
-      <img
-        className={`iron-image ${loaded && 'iron-image--fade-in'}`}
-        alt={alt}
-        src={src}
-      />
+    <>
+      {display === 'none' && <ImageSkeleton className={`mb-3 ${className}`} paddingTop={paddingTop} />}
+      <img src={src} alt={alt} className={className} {...rest} style={{ ...style, display }} onLoad={() => setDisplay('block')} />
+    </>
   )
 };

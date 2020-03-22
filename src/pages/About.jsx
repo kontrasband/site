@@ -7,6 +7,7 @@ import { Row, Container } from 'react-bootstrap';
 import BandMember from '../components/BandMember';
 import MemberAbout from '../components/MemberAbout';
 import { useWindowSize } from '../utils';
+import Image from '../components/image/Image';
 
 const The_Team = [...band, ...team];
 
@@ -18,7 +19,7 @@ export default function About() {
       <PageTitle title="About Us" />
       <PageTitle title="The Band" subtitle />
       <Container className="band-about">
-        <img src="/static/img/band.jpg" alt="" className="w-100" />
+        <Image src="/static/img/band.jpg" alt="" className="w-100" paddingTop="66.667%" />
         <footer className="photo-credit">Photo by Paige Fiddes</footer>
         <p>
           South Africa's latest sensation, <b>Kontras</b>, is back with a brand new single, <b>'Velde'</b>; the first release from

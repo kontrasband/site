@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Container, Row, Col } from "react-bootstrap";
+import Image from './image/Image';
 import galleryImages from "./database/gallery";
 
 export default function Gallery() {
@@ -26,7 +26,7 @@ export default function Gallery() {
                   className="popup-image mb-0"
                   key={im}
                 >
-                  <img
+                  <Image
                     className="animated"
                     alt=""
                     src={`/static/img/gallery/${im}`}

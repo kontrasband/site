@@ -5,9 +5,8 @@ import { useWindowSize } from "../utils";
 export default function Hero() {
   const { height } = useWindowSize();
 
-
   return (
-    <section id="hero" style={{ height }}>
+    <section id="hero" className="hero" style={{ height }}>
       <Slider />
     </section>
   );

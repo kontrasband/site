@@ -1,4 +1,5 @@
 import React, { useEffect, lazy, Suspense } from "react";
+import { SkeletonTheme } from 'react-loading-skeleton';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -43,20 +44,22 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Header />
-      <Body>
-        <Nav />
-        <Suspense fallback={<Page />}>
-          <Switch>
-            {routes.map(route => (
-              <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
-            ))}
-          </Switch>
-        </Suspense>
-        <Footer />
-      </Body>
-    </Router>
+    <SkeletonTheme color="#202020" highlightColor="#444">
+      <Router>
+        <Header />
+        <Body>
+          <Nav />
+          <Suspense fallback={<Page />}>
+            <Switch>
+              {routes.map(route => (
+                <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
+              ))}
+            </Switch>
+          </Suspense>
+          <Footer />
+        </Body>
+      </Router>
+    </SkeletonTheme>
   );
 }
 
