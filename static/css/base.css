@@ -399,7 +399,8 @@ img {
   display: block;
 }
 
-img.animated {
+img.animated,
+div.animated {
   -webkit-transform: translateX(-10px) translateZ(0);
   transform: translateX(-10px) translateZ(0);
   transition: 0.45s ease;
@@ -407,7 +408,8 @@ img.animated {
   max-width: initial;
 }
 
-img:hover {
+img:hover,
+div.animated:hover {
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
