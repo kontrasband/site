@@ -21,7 +21,7 @@ export default function ReleaseDetailsSkeleton() {
           {sections.map(str => (
             <li key={str}>
               <h5 className="uppercase list-inline-item">{str}</h5>
-              <Skeleton width="50%" />
+              <Skeleton width="30%" />
             </li>
           ))}
         </ul>

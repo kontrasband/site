@@ -11,11 +11,14 @@ export default function Home() {
       <PageTitle title="Lyrics" />
       <Row>
           {DISCOGRAPHY.map(release => (
-        <Col xs={12} md={6} xl={3}>
-          <NavLink to={`/lyrics/${release.title.replace(' ', '-').toLowerCase()}`}>
-            <ReleaseArtwork img={release.img} />
-          </NavLink>
-        </Col>
+            <Col xs={12} md={6} xl={3}>
+              <Col xs={12}>
+                <h5 className="mb-0 opc-70 uppercase">{release.title}</h5>
+              </Col>
+              <NavLink to={`/lyrics/${release.title.replace(' ', '-').toLowerCase()}`}>
+                <ReleaseArtwork img={release.img} />
+              </NavLink>
+            </Col>
           ))}
       </Row>
     </Container>

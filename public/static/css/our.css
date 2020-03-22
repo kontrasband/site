@@ -63,3 +63,16 @@ i {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.image-skeleton-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-skeleton-container .image-skeleton {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
