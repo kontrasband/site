@@ -2,8 +2,8 @@ import React, { Suspense, lazy } from 'react'
 import { useRouteMatch, Switch, Route } from 'react-router-dom';
 import Page from './Page'
 import Loading from '../components/lyrics/Loading';
+import Home from '../components/lyrics/Home';
 
-const Home = lazy(() => import('../components/lyrics/Home'));
 const Velde = lazy(() => import('../components/lyrics/Velde'));
 const VierEnTwintig = lazy(() => import('../components/lyrics/24'));
 const SideB = lazy(() => import('../components/lyrics/SideB'));
