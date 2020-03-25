@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Image from './image/Image';
-import galleryImages from "./database/gallery";
+import { live } from "./database/gallery";
+import { usePopup } from "../utils";
+import Masonry from "./Masonry";
 
 export default function Gallery() {
+  usePopup();
+
   return (
     <section id="gallery" className="gallery main">
       <Container>
@@ -17,25 +20,7 @@ export default function Gallery() {
         </Row>
       </Container>
       <Container>
-        <Row className="justify-content-center text-center">
-          <Col xs={12}>
-            <div className="card-gallery image-gallery">
-              {galleryImages.map(im => (
-                <a
-                  href={`/static/img/gallery/${im}`}
-                  className="popup-image mb-0"
-                  key={im}
-                >
-                  <Image
-                    className="animated"
-                    alt=""
-                    src={`/static/img/gallery/${im}`}
-                  />
-                </a>
-              ))}
-            </div>
-          </Col>
-        </Row>
+        <Masonry images={live} />
       </Container>
     </section>
   );

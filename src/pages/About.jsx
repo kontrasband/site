@@ -20,7 +20,7 @@ export default function About() {
       <PageTitle title="The Band" subtitle />
       <Container className="band-about">
         <Image src="/static/img/band.jpg" alt="" className="w-100" paddingTop="66.667%" />
-        <footer className="photo-credit">Photo by Paige Fiddes</footer>
+        <footer className="photo-credit">Photo by <a href="https://www.instagram.com/paige_fiddes_creative/" target="_blank" rel="noopener noreferrer">Paige Fiddes</a></footer>
         <p>
           South Africa's latest sensation, <b>Kontras</b>, is back with a brand new single, <b>'Velde'</b>; the first release from
           their upcoming debut album, <i>Ruimtevaarder</i>, set to be released in early September. If you are a fan of

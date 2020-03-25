@@ -48,3 +48,11 @@ export const useScrollToTop = () => {
 
   return null;
 }
+
+export const usePopup = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "/static/js/popup.js";
+    document.getElementById("root").appendChild(script);
+  }, []);
+}

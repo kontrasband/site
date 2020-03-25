@@ -11,6 +11,7 @@ import Page from "./pages/Page";
 const Music = lazy(() => import('./pages/Music'));
 const Lyrics = lazy(() => import("./pages/Lyrics"));
 const AboutPage = lazy(() => import("./pages/About"));
+const Gallery = lazy(() => import("./pages/Gallery"));
 
 export const routes = [
   {
@@ -18,6 +19,11 @@ export const routes = [
     title: "About",
     exact: true,
     component: AboutPage
+  },
+  {
+    path: "/photos",
+    title: "Gallery",
+    component: Gallery
   },
   {
     path: "/lyrics",
