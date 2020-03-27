@@ -21,7 +21,7 @@ export default function Discography() {
       <Container>
         <Row>
           {RELEASES.map(release => (
-            <Col xs={12} md={6} lg={3} key={release.id}>
+            <Col xs={12} md={6} lg={4} key={release.id}>
               <div className="block-album block-content">
                 <h5 className="mb-0 opc-70 uppercase">{release.title}</h5>
                 <a className="link" href={release.url}>
