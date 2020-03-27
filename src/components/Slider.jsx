@@ -17,17 +17,17 @@ const SLIDES = [
   },
   {
     "id": 3,
+    "bg": "/static/img/artwork/die-happy-song.jpg", // TODO
+    "title": "Die Happy Song",
+    "body": "Stream dit nou op alle platforms",
+    "href": "http://smarturl.it/v079hy" // TODO
+  },
+  {
+    "id": 4,
     "bg": "/static/img/velde-vid.jpeg",
     "title": "Velde",
     "body": "Kyk hom op YouTube",
     "href": "https://www.youtube.com/watch?v=2OeLrsLnCio"
-  },
-  {
-    "id": 4,
-    "bg": "/static/img/artwork/velde-banner.jpg",
-    "title": "Velde",
-    "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/v079hy"
   }
 ]
 

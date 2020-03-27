@@ -2,7 +2,7 @@ export default [
   {
     id: 4,
     title: "Die Happy Song",
-    url: "http://smarturl.it/v079hy",
+    url: "http://smarturl.it/v079hy", // TODO
     img: "/static/img/artwork/die-happy-song.jpg",
     details: [
       {
@@ -42,7 +42,7 @@ export default [
         navlink: "/lyrics/die-happy-song"
       }
     ],
-    released: false,
+    released: false, // TODO
     stores: [
       {
         url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX",
