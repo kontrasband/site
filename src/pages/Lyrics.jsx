@@ -4,6 +4,7 @@ import Page from './Page'
 import Loading from '../components/lyrics/Loading';
 import Home from '../components/lyrics/Home';
 
+const DieHappySong = lazy(() => import('../components/lyrics/DieHappySong'));
 const Velde = lazy(() => import('../components/lyrics/Velde'));
 const VierEnTwintig = lazy(() => import('../components/lyrics/24'));
 const SideB = lazy(() => import('../components/lyrics/SideB'));
@@ -17,6 +18,7 @@ export default function Lyrics() {
         <Switch>
           <Route exact path={path} component={Home} />
           <Suspense fallback={<Loading />}>
+            <Route path={`${path}/die-happy-song`} component={DieHappySong} />
             <Route path={`${path}/velde`} component={Velde} />
             <Route path={`${path}/24`} component={VierEnTwintig} />
             <Route path={`${path}/side-b`} component={SideB} />

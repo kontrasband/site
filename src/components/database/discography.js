@@ -1,5 +1,76 @@
 export default [
   {
+    id: 4,
+    title: "Die Happy Song",
+    url: "http://smarturl.it/v079hy",
+    img: "/static/img/artwork/die-happy-song.jpg",
+    details: [
+      {
+        key: "Title",
+        value: "Die Happy Song"
+      },
+      {
+        key: "Album",
+        value: "Ruimtevaarder"
+      },
+      {
+        key: "Released",
+        value: "8 May 2020"
+      },
+      {
+        key: "Label",
+        value: "Independent"
+      },
+      {
+        key: "Genre",
+        value: "Afrikaans Pop Rock"
+      },
+      {
+        key: "Artwork",
+        value: "@nannaventer",
+        href: "http://instagram.com/nannaventer"
+      },
+      {
+        key: "Produced",
+        value: "@joellismusic",
+        href: "http://instagram.com/joellismusic"
+      },
+      {
+
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/die-happy-song"
+      }
+    ],
+    released: false,
+    stores: [
+      {
+        url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX",
+        name: "spotify"
+      },
+      {
+        url: "https://music.youtube.com/watch?v=2OeLrsLnCio",
+        name: "youtube"
+      },
+      {
+        url: "https://music.apple.com/za/album/velde/1500398910?app=music&i=1500399278&ign-mpt=uo%3D4",
+        name: "apple"
+      },
+      {
+        url: "https://play.google.com/music/preview/Tjr7hxzjfkjazgx6w2j5wpukoya?u=0",
+        name: "play"
+      },
+      {
+          url: "https://www.deezer.com/en/album/133428252",
+          name: "deezer"
+      },
+      {
+          url: "https://listen.tidal.com/album/132439101",
+          name: "tidal"
+      }
+    ]
+  },
+  {
     id: 3,
     title: "Velde",
     url: "http://smarturl.it/v079hy",

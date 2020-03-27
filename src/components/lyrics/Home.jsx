@@ -15,7 +15,7 @@ export default function Home() {
               <Col xs={12}>
                 <h5 className="mb-0 opc-70 uppercase">{release.title}</h5>
               </Col>
-              <NavLink to={`/lyrics/${release.title.replace(' ', '-').toLowerCase()}`}>
+              <NavLink to={`/lyrics/${release.title.replace(/\s+/g, '-').toLowerCase()}`}>
                 <ReleaseArtwork img={release.img} />
               </NavLink>
             </Col>
