@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
-import Image from './image/Image'
+import Image from './Image'
 
 export default function Masonry({ images }) {
   return (

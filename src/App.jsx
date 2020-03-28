@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Home from './pages/Home';
 import Page from "./pages/Page";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const Music = lazy(() => import('./pages/Music'));
 const Lyrics = lazy(() => import("./pages/Lyrics"));
@@ -63,7 +64,8 @@ function App() {
             </Switch>
           </Suspense>
           <Footer />
-        </Body>
+      </Body>
+      <GoogleAnalytics />
       </Router>
     </SkeletonTheme>
   );
