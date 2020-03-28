@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from './image/Image';
+import Image from './Image';
 
 export default function ReleaseArtwork({ img, url }) {
   if (!url) {
