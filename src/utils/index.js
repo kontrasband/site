@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from "react-router-dom";
 import RELEASES from '../components/database/discography';
+import LYRICS from '../components/database/lyrics';
 
 export const getLatestRelease = () => {
   return RELEASES[0];
@@ -8,6 +9,10 @@ export const getLatestRelease = () => {
 
 export const getReleaseByName = name => {
   return RELEASES.find(release => release.title.toLowerCase() === name.toLowerCase()) || {};
+}
+
+export const getLyricsByReleaseName = name => {
+  return LYRICS.find(lyric => lyric.title === name);
 }
 
 export const useWindowSize = () => {

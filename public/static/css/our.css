@@ -27,6 +27,7 @@ div.carousel-item {
   text-align: center;
   line-height: 1.8rem;
   letter-spacing: 1px;
+  white-space: pre-line;
 }
 
 .band-about {
