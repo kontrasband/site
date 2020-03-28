@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
-import Image from './image/Image';
+import Image from './Image';
 
 export default function BandMember({ member, ...rest }) {
   const { name, role, img, insta } = member;

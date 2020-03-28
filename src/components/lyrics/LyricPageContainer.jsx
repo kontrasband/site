@@ -1,12 +1,18 @@
 import React from 'react';
-import { getReleaseByName } from '../../utils';
+import { Redirect, useParams } from 'react-router-dom';
+import { getReleaseBySlug, getLyricsByReleaseName } from '../../utils';
 import PageTitle from '../PageTitle';
 import Release from '../Release';
-import { Container } from 'react-bootstrap';
+import Song from './Song';
 
 
-export default function LyricPageContainer({ title, children }) {
-  const release = getReleaseByName(title);
+export default function LyricPageContainer() {
+  const { slug } = useParams();
+
+  const release = getReleaseBySlug(slug);
+  const { tracks } = getLyricsByReleaseName(release.title);
+
+  if (!release || !tracks) return <Redirect to="/lyrics" />;
 
   return (
     <>
@@ -14,12 +20,9 @@ export default function LyricPageContainer({ title, children }) {
       <div className="gap-one-bottom-md">
         <Release release={release} md={4} />
       </div>
-      <div className="even-odd-bg">
-        <PageTitle title={release.title} subtitle/>
-        <Container className="lyrics-container">
-          {children}
-        </Container>
-      </div>
+      {tracks.map(song => (
+        <Song key={song.title} song={song} />
+      ))}
     </>
   )
 }

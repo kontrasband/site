@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ImageSkeleton from '../loading/ImageSkeleton';
+import ImageSkeleton from './loading/ImageSkeleton';
 
 export default function Image({ src, alt, className, paddingTop, style, ...rest }) {
   const [display, setDisplay] = useState('none');
