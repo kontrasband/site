@@ -1,16 +1,18 @@
 export const live = [
-  "/static/img/gallery/Braai vir Brakke 2019-10.jpg",
-  "/static/img/gallery/Braai vir Brakke 2019-11.jpg",
-  "/static/img/gallery/Braai vir Brakke 2019-12.jpg",
-  "/static/img/gallery/Braai vir Brakke 2019-14.jpg",
-  "/static/img/gallery/Braai vir Brakke 2019-7.jpg",
-  "/static/img/gallery/Braai vir Brakke 2019-9.jpg",
-  "/static/img/gallery/IMG_5238bw.jpg",
-  "/static/img/gallery/IMG_5583.jpg",
-  "/static/img/gallery/Rocking Stellies-2.jpg",
-  "/static/img/gallery/Rocking Stellies-5.jpg",
-  "/static/img/gallery/Rocking Stellies-6.jpg",
-  "/static/img/gallery/Rocking Stellies-7.jpg"
+  "/static/img/gallery/gallery-1.jpg",
+  "/static/img/gallery/gallery-2.jpg",
+  "/static/img/gallery/gallery-3.jpg",
+  "/static/img/gallery/gallery-6.jpg",
+  "/static/img/gallery/gallery-7.jpg",
+  "/static/img/gallery/gallery-8.jpg",
+  "/static/img/gallery/gallery-9.jpg",
+  "/static/img/gallery/gallery-10.jpg",
+  "/static/img/gallery/gallery-4.jpg",
+  "/static/img/gallery/gallery-11.jpg",
+  "/static/img/gallery/gallery-5.jpg",
+  "/static/img/gallery/gallery-12.jpg",
+  "/static/img/gallery/gallery-13.jpg",
+  "/static/img/gallery/gallery-14.jpg",
 ];
 
 export const posters = [
