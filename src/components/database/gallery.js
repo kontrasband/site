@@ -24,6 +24,7 @@ export const posters = [
   "/static/img/posters/Aandklas_24_Sept.jpg",
   "/static/img/posters/Bohemia_7_Mar.jpg",
   "/static/img/posters/Aandklas_24_Apr.jpg",
+  "/static/img/posters/I_Love_Stellies_1_Feb.jpg",
   "/static/img/posters/SROF_Tour.jpeg",
   "/static/img/posters/Ellingtons_20_Jul.png",
 ];
