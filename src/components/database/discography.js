@@ -36,7 +36,6 @@ export default [
         href: "http://instagram.com/joellismusic"
       },
       {
-
         key: "Lyrics",
         value: "Here",
         navlink: "/lyrics/die-happy-song"
@@ -45,28 +44,28 @@ export default [
     released: false, // TODO
     stores: [
       {
-        url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX",
+        url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX", // TODO
         name: "spotify"
       },
       {
-        url: "https://music.youtube.com/watch?v=2OeLrsLnCio",
+        url: "https://music.youtube.com/watch?v=2OeLrsLnCio", // TODO
         name: "youtube"
       },
       {
-        url: "https://music.apple.com/za/album/velde/1500398910?app=music&i=1500399278&ign-mpt=uo%3D4",
+        url: "https://music.apple.com/za/album/velde/1500398910?app=music&i=1500399278&ign-mpt=uo%3D4", // TODO
         name: "apple"
       },
       {
-        url: "https://play.google.com/music/preview/Tjr7hxzjfkjazgx6w2j5wpukoya?u=0",
+        url: "https://play.google.com/music/preview/Tjr7hxzjfkjazgx6w2j5wpukoya?u=0", // TODO
         name: "play"
       },
       {
-          url: "https://www.deezer.com/en/album/133428252",
-          name: "deezer"
+        url: "https://www.deezer.com/en/album/133428252", // TODO
+        name: "deezer"
       },
       {
-          url: "https://listen.tidal.com/album/132439101",
-          name: "tidal"
+        url: "https://listen.tidal.com/album/132439101", // TODO
+        name: "tidal"
       }
     ]
   },
@@ -107,13 +106,11 @@ export default [
         href: "http://instagram.com/joellismusic"
       },
       {
-
         key: "Music Video",
         value: "YouTube",
         href: "https://www.youtube.com/watch?v=2OeLrsLnCio"
       },
       {
-
         key: "Lyrics",
         value: "Here",
         navlink: "/lyrics/velde"
@@ -138,12 +135,12 @@ export default [
         name: "play"
       },
       {
-          url: "https://www.deezer.com/en/album/133428252",
-          name: "deezer"
+        url: "https://www.deezer.com/en/album/133428252",
+        name: "deezer"
       },
       {
-          url: "https://listen.tidal.com/album/132439101",
-          name: "tidal"
+        url: "https://listen.tidal.com/album/132439101",
+        name: "tidal"
       }
     ]
   },
@@ -184,7 +181,6 @@ export default [
         href: "http://instagram.com/joellismusic"
       },
       {
-
         key: "Lyrics",
         value: "Here",
         navlink: "/lyrics/24"
@@ -193,28 +189,28 @@ export default [
     released: true,
     stores: [
         {
-            url: "https://open.spotify.com/album/7DtfWJznXi8iLAIuB0XVCK",
-            name: "spotify"
+          url: "https://open.spotify.com/album/7DtfWJznXi8iLAIuB0XVCK",
+          name: "spotify"
         },
         {
-            url: "https://www.youtube.com/watch?v=SG1yiOThNO0",
-            name: "youtube"
+          url: "https://www.youtube.com/watch?v=SG1yiOThNO0",
+          name: "youtube"
         },
         {
-            url: "https://itunes.apple.com/za/album/24-single/1493972157?uo=4&ls=1&app=music&at=11lEW&ct=7qsim6",
-            name: "apple"
+          url: "https://itunes.apple.com/za/album/24-single/1493972157?uo=4&ls=1&app=music&at=11lEW&ct=7qsim6",
+          name: "apple"
         },
         {
-            url: "https://play.google.com/store/music/album/Kontras_24?id=Bfhdzfy5zb6asiw57kfy6g6w4pm",
-            name: "play"
+          url: "https://play.google.com/store/music/album/Kontras_24?id=Bfhdzfy5zb6asiw57kfy6g6w4pm",
+          name: "play"
         },
         {
-            url: "https://www.deezer.com/album/125734002",
-            name: "deezer"
+          url: "https://www.deezer.com/album/125734002",
+          name: "deezer"
         },
         {
-            url: "https://listen.tidal.com/album/127503448",
-            name: "tidal"
+          url: "https://listen.tidal.com/album/127503448",
+          name: "tidal"
         },
     ]
   },
@@ -255,7 +251,6 @@ export default [
         href: "http://instagram.com/joellismusic"
       },
       {
-
         key: "Lyrics",
         value: "Here",
         navlink: "/lyrics/side-b"
@@ -351,12 +346,12 @@ export default [
         name: "play"
       },
       {
-          url: "https://www.deezer.com/en/album/80215072",
-          name: "deezer"
+        url: "https://www.deezer.com/en/album/80215072",
+        name: "deezer"
       },
       {
-          url: "https://listen.tidal.com/album/99714112",
-          name: "tidal"
+        url: "https://listen.tidal.com/album/99714112",
+        name: "tidal"
       },
     ]
   },
