@@ -12,7 +12,7 @@ export default function Discography() {
           <Col xs={12} md={10} lg={9}>
             <div className="block-content text-center gap-one-bottom-md">
               <div className="block-title ">
-                <h1 className="uppercase">Discography</h1>
+                <h1 className="uppercase">New Music</h1>
               </div>
             </div>
           </Col>
@@ -20,7 +20,7 @@ export default function Discography() {
       </Container>
       <Container>
         <Row>
-          {RELEASES.map(release => (
+          {RELEASES.slice(0, 3).map(release => (
             <Col xs={12} md={6} lg={4} key={release.id}>
               <div className="block-album block-content">
                 <h5 className="mb-0 opc-70 uppercase">{release.title}</h5>
