@@ -5,7 +5,6 @@ export default function Page({ name, children }) {
   return (
     <section id={name} className="main page-container">
       {children}
-      <Contact />
     </section>
   )
 }
