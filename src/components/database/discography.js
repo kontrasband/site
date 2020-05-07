@@ -2,7 +2,7 @@ export default [
   {
     id: 4,
     title: "Die Happy Song",
-    url: "http://smarturl.it/v079hy", // TODO
+    url: "http://smarturl.it/bmwd1e", // TODO
     img: "/static/img/artwork/die-happy-song.jpg",
     details: [
       {
@@ -41,7 +41,7 @@ export default [
         navlink: "/lyrics/die-happy-song"
       }
     ],
-    released: false, // TODO
+    released: true, // TODO
     stores: [
       {
         url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX", // TODO
@@ -52,11 +52,11 @@ export default [
         name: "youtube"
       },
       {
-        url: "https://music.apple.com/za/album/velde/1500398910?app=music&i=1500399278&ign-mpt=uo%3D4", // TODO
+        url: "https://music.apple.com/us/album/die-happy-song-single/1506182762?uo=4&app=itunes&at=1001lry3&ct=dashboard&ls=1",
         name: "apple"
       },
       {
-        url: "https://play.google.com/music/preview/Tjr7hxzjfkjazgx6w2j5wpukoya?u=0", // TODO
+        url: "https://play.google.com/store/music/album/Kontras_Die_Happy_Song?id=Bzwieotvnftitvjyjiczkqfwcnm",
         name: "play"
       },
       {
