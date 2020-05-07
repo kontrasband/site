@@ -7,7 +7,7 @@ import BackgroundImage from "./BackgroundImage";
 export default function About() {
   return (
     <section id="about" className="about overlay main">
-      <BackgroundImage src="/static/img/gallery/Rocking Stellies-7.jpg"/>
+      <BackgroundImage src="/static/img/about-banner.jpg"/>
       <Container>
         <Row className="vertical-align">
           <Col lg={5} md={12}>

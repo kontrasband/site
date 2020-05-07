@@ -30,9 +30,24 @@ export default [
     ]
   },
   {
+    name: "Jo Ellis",
+    role: "Producer",
+    align: "left",
+    insta: "joellismusic",
+    img: "/static/img/team/jo.jpg",
+    about: [
+      { key: "hometown", value: "Ladismith", },
+      { key: "profession", value: "Record Producer", },
+      { key: "Top Intl Artist", value: "Pearl Jam", },
+      { key: "Top Local Artist", value: "Hugo Veldsman", },
+      { key: "Top Album", value: "Pearl Jam - Vs.", },
+      { key: "quote", value: "\"Moenie op 'n perd klim as jy nie OK is met afval nie.\"" },
+    ]
+  },
+  {
     name: "Ian Neethling",
     role: "Merch Guy",
-    align: "left",
+    align: "right",
     insta: "neethling.io",
     img: "/static/img/team/ian.jpg",
     about: [
@@ -47,7 +62,7 @@ export default [
   {
     name: "Nanna Venter",
     role: "Designer",
-    align: "right",
+    align: "left",
     insta: "nannaventer",
     img: "/static/img/team/nanna.jpg",
     about: [

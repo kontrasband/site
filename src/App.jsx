@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Home from './pages/Home';
 import Page from "./pages/Page";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import Contact from "./components/Contact";
 
 const Music = lazy(() => import('./pages/Music'));
 const Lyrics = lazy(() => import("./pages/Lyrics"));
@@ -62,6 +63,7 @@ function App() {
                 <Route key={route.path} path={route.path} exact={!!route.exact} component={route.component} />
               ))}
             </Switch>
+            <Contact />
           </Suspense>
           <Footer />
       </Body>

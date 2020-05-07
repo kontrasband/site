@@ -20,7 +20,7 @@ const SLIDES = [
     "bg": "/static/img/artwork/die-happy-song-banner.jpg", // TODO
     "title": "Die Happy Song",
     "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/v079hy" // TODO
+    "href": "http://smarturl.it/v079hy"
   },
   {
     "id": 4,
