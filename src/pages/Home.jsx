@@ -5,7 +5,6 @@ const About = lazy(() => import("../components/About"));
 const Discography = lazy(() => import("../components/Discography"));
 const BandMembers = lazy(() => import("../components/BandMembers"));
 const Gallery = lazy(() => import("../components/Gallery"));
-const Contact = lazy(() => import("../components/Contact"));
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <Discography />
         <BandMembers />
         <Gallery />
-        <Contact />
       </Suspense>
     </div>
   );

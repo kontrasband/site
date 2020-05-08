@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --brand-primary: #984237;
+  --brand-secondary: #7cb7d9;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -178,14 +180,14 @@ sup {
 }
 
 a {
-  color: #b99a00;
+  color: var(--brand-secondary);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #117fc2;
+  color: var(--brand-primary);
   text-decoration: underline;
 }
 
@@ -4998,7 +5000,7 @@ tbody.collapse.show {
 
 .page-item.active .page-link {
   z-index: 1;
-  color: #b99a00;
+  color: var(--brand-secondary);
   /*  background-color: #007bff;
   border-color: #007bff;*/
 }

@@ -1,13 +1,19 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useRouteMatch } from 'react-router-dom';
 import StoreLinks from './StoreLinks'
 
 export default function ReleaseDetails({ details = [], stores, released }) {
+  const { path } = useRouteMatch();
+
+  const isLyricsPage = path === '/lyrics/:slug';
+
+  const fields = isLyricsPage ? details.filter(detail => detail.key !== 'Lyrics') : details;
+
   return (
     <div className="block-content gap-one-bottom-sm">
       <div className="block-album-info">
         <ul>
-          {details.map(detail => {
+          {fields.map(detail => {
             const { key, value, href, navlink } = detail
             return (
               <li key={key}>

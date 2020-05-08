@@ -17,10 +17,10 @@ const SLIDES = [
   },
   {
     "id": 3,
-    "bg": "/static/img/artwork/velde-banner.jpg",
-    "title": "Velde",
+    "bg": "/static/img/artwork/die-happy-song-banner.jpg", // TODO
+    "title": "Die Happy Song",
     "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/v079hy"
+    "href": "http://smarturl.it/bmwd1e"
   },
   {
     "id": 4,

@@ -167,7 +167,7 @@ iframe {
   display: inline-block;
 }
 ::-moz-selection {
-  background: #117fc2;
+  background: var(--brand-primary);
   color: #ffffff;
 }
 /* End reset & basics (Inspired by E. Meyers) */
@@ -278,7 +278,7 @@ h6,
   content: "";
   width: 100%;
   height: 0.875rem;
-  background: #117fc2;
+  background: var(--brand-primary);
   bottom: 0.775rem;
   left: 0;
 }
@@ -375,7 +375,7 @@ section,
 }
 
 .text-red {
-  color: #117fc2;
+  color: var(--brand-primary);
 }
 
 .bold {
@@ -532,7 +532,7 @@ input[type="text"],
 }
 
 .border-2 {
-  border-color: #117fc2 !important;
+  border-color: var(--brand-primary) !important;
 }
 
 .border-3 {
@@ -639,7 +639,7 @@ div[class*="col-"].gap-double-sm,
   border-top: 1px solid rgba(59, 75, 91, 0.3);
 }
 .bg-red {
-  background: #117fc2;
+  background: var(--brand-primary);
 }
 .bg-dark-blue {
   background: #13181d;
