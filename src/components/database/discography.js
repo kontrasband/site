@@ -2,7 +2,7 @@ export default [
   {
     id: 4,
     title: "Die Happy Song",
-    url: "http://smarturl.it/bmwd1e", // TODO
+    url: "http://smarturl.it/bmwd1e",
     img: "/static/img/artwork/die-happy-song.jpg",
     details: [
       {
@@ -60,11 +60,11 @@ export default [
         name: "play"
       },
       {
-        url: "https://www.deezer.com/en/album/133428252", // TODO
+        url: "https://www.deezer.com/en/album/139845692",
         name: "deezer"
       },
       {
-        url: "https://listen.tidal.com/album/132439101", // TODO
+        url: "https://listen.tidal.com/album/136305954",
         name: "tidal"
       }
     ]
