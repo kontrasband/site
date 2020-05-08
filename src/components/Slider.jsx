@@ -17,7 +17,7 @@ const SLIDES = [
   },
   {
     "id": 3,
-    "bg": "/static/img/artwork/die-happy-song-banner.jpg", // TODO
+    "bg": "/static/img/artwork/die-happy-song-banner.jpg",
     "title": "Die Happy Song",
     "body": "Stream dit nou op alle platforms",
     "href": "http://smarturl.it/bmwd1e"
