@@ -41,14 +41,14 @@ export default [
         navlink: "/lyrics/die-happy-song"
       }
     ],
-    released: true, // TODO
+    released: true,
     stores: [
       {
-        url: "https://open.spotify.com/track/18URL8MhL7OIWW7TfYMOZX", // TODO
+        url: "https://open.spotify.com/track/620QSRMUb7GNIoN52MChay",
         name: "spotify"
       },
       {
-        url: "https://music.youtube.com/watch?v=2OeLrsLnCio", // TODO
+        url: "https://music.youtube.com/watch?v=qEm3TA12TNI",
         name: "youtube"
       },
       {
