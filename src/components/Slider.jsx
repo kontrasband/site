@@ -17,10 +17,10 @@ const SLIDES = [
   },
   {
     "id": 3,
-    "bg": "/static/img/artwork/die-happy-song-banner.jpg",
-    "title": "Die Happy Song",
+    "bg": "/static/img/artwork/mors-jou-drank-banner.jpg",
+    "title": "Mors Jou Drank",
     "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/bmwd1e"
+    "href": "http://smarturl.it/sp1ih4"
   },
   {
     "id": 4,
