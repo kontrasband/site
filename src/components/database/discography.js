@@ -1,5 +1,75 @@
 export default [
   {
+    id: 5,
+    title: "Mors Jou Drank",
+    url: "http://smarturl.it/sp1ih4",
+    img: "/static/img/artwork/mors-jou-drank.jpg",
+    details: [
+      {
+        key: "Title",
+        value: "Mors Jou Drank"
+      },
+      {
+        key: "Album",
+        value: "Ruimtevaarder"
+      },
+      {
+        key: "Released",
+        value: "5 June 2020"
+      },
+      {
+        key: "Label",
+        value: "Independent"
+      },
+      {
+        key: "Genre",
+        value: "Afrikaans Punk Rock"
+      },
+      {
+        key: "Artwork",
+        value: "@nannaventer",
+        href: "http://instagram.com/nannaventer"
+      },
+      {
+        key: "Produced",
+        value: "@joellismusic",
+        href: "http://instagram.com/joellismusic"
+      },
+      {
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/mors-jou-drank"
+      }
+    ],
+    released: true,
+    stores: [
+      {
+        url: "https://open.spotify.com/track/4VQQAFMFsTsT9cJXTjXmdg",
+        name: "spotify"
+      },
+      {
+        url: "https://youtu.be/4oEB96JVDs8",
+        name: "youtube"
+      },
+      {
+        url: "https://itunes.apple.com/za/album/mors-jou-drank/1514359656?i=1514359657&ls=1&app=music&at=11lEW&ct=sp1ih4%7Cfacebook.com",
+        name: "apple"
+      },
+      {
+        url: "https://play.google.com/store/music/album/Kontras_Mors_Jou_Drank?id=B2aa257ihudp2lwkxmlitglrspm",
+        name: "play"
+      },
+      {
+        url: "https://www.deezer.com/track/966618122",
+        name: "deezer"
+      },
+      {
+        url: "https://listen.tidal.com/album/142229619",
+        name: "tidal"
+      }
+    ]
+  },
+  {
     id: 4,
     title: "Die Happy Song",
     url: "http://smarturl.it/bmwd1e",
@@ -188,30 +258,30 @@ export default [
     ],
     released: true,
     stores: [
-        {
-          url: "https://open.spotify.com/album/7DtfWJznXi8iLAIuB0XVCK",
-          name: "spotify"
-        },
-        {
-          url: "https://www.youtube.com/watch?v=SG1yiOThNO0",
-          name: "youtube"
-        },
-        {
-          url: "https://itunes.apple.com/za/album/24-single/1493972157?uo=4&ls=1&app=music&at=11lEW&ct=7qsim6",
-          name: "apple"
-        },
-        {
-          url: "https://play.google.com/store/music/album/Kontras_24?id=Bfhdzfy5zb6asiw57kfy6g6w4pm",
-          name: "play"
-        },
-        {
-          url: "https://www.deezer.com/album/125734002",
-          name: "deezer"
-        },
-        {
-          url: "https://listen.tidal.com/album/127503448",
-          name: "tidal"
-        },
+      {
+        url: "https://open.spotify.com/album/7DtfWJznXi8iLAIuB0XVCK",
+        name: "spotify"
+      },
+      {
+        url: "https://www.youtube.com/watch?v=SG1yiOThNO0",
+        name: "youtube"
+      },
+      {
+        url: "https://itunes.apple.com/za/album/24-single/1493972157?uo=4&ls=1&app=music&at=11lEW&ct=7qsim6",
+        name: "apple"
+      },
+      {
+        url: "https://play.google.com/store/music/album/Kontras_24?id=Bfhdzfy5zb6asiw57kfy6g6w4pm",
+        name: "play"
+      },
+      {
+        url: "https://www.deezer.com/album/125734002",
+        name: "deezer"
+      },
+      {
+        url: "https://listen.tidal.com/album/127503448",
+        name: "tidal"
+      },
     ]
   },
   {
@@ -275,12 +345,12 @@ export default [
         name: "play"
       },
       {
-          url: "https://www.deezer.com/en/album/88792602",
-          name: "deezer"
+        url: "https://www.deezer.com/en/album/88792602",
+        name: "deezer"
       },
       {
-          url: "https://listen.tidal.com/album/104921335",
-          name: "tidal"
+        url: "https://listen.tidal.com/album/104921335",
+        name: "tidal"
       },
     ]
   },
