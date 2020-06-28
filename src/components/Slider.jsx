@@ -4,6 +4,13 @@ import BackgroundImage from "./BackgroundImage";
 
 const SLIDES = [
   {
+    "id": 3,
+    "bg": "/static/img/artwork/die-ruimtevaarder-banner.png", // TODO
+    "title": "Die Ruimtevaarder",
+    "body": "Stream dit nou op alle platforms",
+    "href": "http://smarturl.it/sp1ih4" // TODO
+  },
+  {
     "id": 1,
     "bg": "/static/img/paige-shoot.jpg",
     "title": "Kontras",
@@ -14,13 +21,6 @@ const SLIDES = [
     "bg": "/static/img/kontras-aandklas.jpg",
     "title": "Ons almal is 'n kontras",
     "body": "Ons haat die dinge wat ons self die meeste doen."
-  },
-  {
-    "id": 3,
-    "bg": "/static/img/artwork/mors-jou-drank-banner.jpg",
-    "title": "Mors Jou Drank",
-    "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/sp1ih4"
   },
   {
     "id": 4,

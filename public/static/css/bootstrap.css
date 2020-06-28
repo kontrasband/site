@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  /* RV colors: */
+  --brand-primary: #bc915e;
+  --brand-secondary: #aa73d1;
   /* MJD colors: */
   --brand-primary: #582D56;
   --brand-secondary: #c2bc15;

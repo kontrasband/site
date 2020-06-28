@@ -1,5 +1,14 @@
 export default [
   {
+    title: 'Die Ruimtevaarder',
+    tracks: [
+      {
+        title: 'Die Ruimtevaarder',
+        lyrics: "Ek’s nietig en klein en wens ek kon meer wees\nIn die heelal waar ek bly, wil ek net heel wees\nOntelbare sterre en sterrestelsels\nEk kyk na die maan en sien al die letsels\n\nEk sweef deur die ruimte en vaar oor Orion\nSonder ‘n kompas, vêr van die mensdom\nVergeet van jou hartseer, jou pyn en jou smart\nKen jy die krag van die menslike hart? \n\nKom sweef, sweef, sweef, sweef saam met my\nMaak toe jou oë; die dag is verby\nVergeet van jou smarte, jou hartseer, en pyn\nEn kom sweef, sweef, sweef, sweef saam met my\n\nEk versamel ook geen aardse besittings\nHoe kan dit my tussen die sterre nuttig?\nVêr bo die wolke, vêr bo die besmetting\nVind ek jou ook in jou neonboog ketting  \n\nJou swaartekrag trek my aan\nEn ek bevind myself in jou wentelbaan\nAl die haat wat die wêreld op ons wou plaas\nWord deur hemelwesens weg geblaas\n\nKom sweef, sweef, sweef, sweef saam met my\nMaak toe jou oë; die dag is verby\nVergeet van jou smarte, jou hartseer, en pyn\nEn kom sweef, sweef, sweef, sweef saam met my\n\nKom sweef, sweef, sweef, sweef saam met my\nMaak toe jou oë; die dag is verby\nVergeet van jou smarte, jou hartseer, en pyn\nEn kom sweef, sweef, sweef, sweef saam met my\n\nSweef, sweef, sweef, sweef saam met my\nMaak toe jou oë; die dag is verby\nVergeet van jou smarte, jou hartseer, en pyn\nEn kom sweef, sweef, sweef, sweef saam met my\nEk sê sweef, sweef, sweef, sweef saam met my\nEk sê sweef, sweef, sweef, sweef saam met my\nEk sê sweef, sweef, sweef, sweef saam met my\n\nSweef, sweef, sweef, sweef saam met my",
+      }
+    ]
+  },
+  {
     title: "Mors Jou Drank",
     tracks: [
       {
