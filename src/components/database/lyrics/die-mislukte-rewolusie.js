@@ -1,0 +1,9 @@
+export default {
+  title: "Die Mislukte Rewolusie",
+  tracks: [
+    {
+      title: "Die Mislukte Rewolusie",
+      lyrics: "En wat as dit dalk net my laaste kans is\nOm te ontsnap uit die lewe wat almal volg\nwat as dit dalk net jou laaste kans is\nOm te bewys dat jy niks kort	\n\nEn agter die stofstorms staan daar baie van ons soldate\nDie storm beur deur die wit wolke en probeer ons te verslint\nAngsbegryp die groot massamoord\nEk wil he hulle moet weet ons was die laaste om wapens neer te le\n\nEn jy’s nie ‘n ware leier nie\nMaar steeds probeer jy die mense mislei\nValse herder verlei met sprokies \nOm die tou om die skape se nekke te kry\n\nEn steeds blindeliks sit jy op jou blou bank\nStaan op soldaat, staan op en leer jou rang\nHm\n\nMaar ek sal nie jou nommer dra nie\nNiks wat jy kan se of vra nie\nEk kies vryheid in my eie tyd\nEk sal nie myself gedra nie\nVolg nie jou eksemplaar nie\nDie rewolusie van die eensames sal staan\n\nGeseend is ons die oorblewenis\nVan die mislukte rewolusie\nGeeerd is ons, al die kinders\nWat nie volg in jou tradisies nie\n\nVaagweg is die idees\nLiggaam, siel, en gees\nEn ek word afgeknou\nEn ek word altyd terug gehou\nEk wil weer sweef soos ‘n vuishou jongeling\nHulle se ek is te oud om te verstaan maar te jonk om te vergaan?\nOns was geleer om vir onsself te dink, maar in ‘n oogwink het ons in ons eie spoeg verdrink\n\n\n\nMaar ek staan hier gereed, en ek staan hier sonder vrees\nEk staan hier gereed en ek staan hier sonder vrees\nEn ek sal nie jou nommer dra nie\nNiks wat jy kan se of vra nie\nEk kies vryheid in my eie tyd\nEk sal nie myself gedra nie\nVolg nie jou eksemplaar nie\nDie rewolusie van die eensames sal staan\n\nGeseend is ons, die oorblewenis\nVan die mislukte rewolusie\nGeeerd is ons, al die kinders\nWat nie volg in jou tradisies nie\n\nGeseend is ons, die oorblewenis\nVan die mislukte rewolusie\nGeeerd is ons, al die kinders\nWat nie volg in jou tradisies nie\n"
+    }
+  ]
+}
