@@ -3,7 +3,7 @@ export default [
     id: 6,
     title: "Die Ruimtevaarder",
     url: "http://smarturl.it/sp1ih4", // TODO
-    img: "/static/img/artwork/die-ruimtevaarder.png", // TODO
+    img: "/static/img/artwork/die-ruimtevaarder.jpg",
     details: [
       {
         key: "Title",
@@ -11,11 +11,11 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",
-        value: "5 June 2020" // TODO
+        value: "21 August 2020"
       },
       {
         key: "Label",
@@ -82,7 +82,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",
@@ -152,7 +152,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",
@@ -222,7 +222,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",

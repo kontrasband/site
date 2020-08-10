@@ -23,7 +23,7 @@ export default function About() {
         <footer className="photo-credit">Photo by <a href="https://www.instagram.com/paige_fiddes_creative/" target="_blank" rel="noopener noreferrer">Paige Fiddes</a></footer>
         <p>
           South Africa's latest sensation, <b>Kontras</b>, is back with a brand new single, <b>'Velde'</b>; the first release from
-          their upcoming debut album, <i>Ruimtevaarder</i>, set to be released in early September. If you are a fan of
+          their upcoming debut album, <i>Vir Konteks</i>, set to be released in early September. If you are a fan of
           {" "}<b>Spoegwolf</b>, <b>Fokofpolisiekar</b>, or <b>Die Heuwels Fantasties</b>, then <b>'Velde'</b> is the perfect fit for you.
         </p>
 

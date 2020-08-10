@@ -5,7 +5,7 @@ import BackgroundImage from "./BackgroundImage";
 const SLIDES = [
   {
     "id": 3,
-    "bg": "/static/img/artwork/die-ruimtevaarder-banner.png", // TODO
+    "bg": "/static/img/artwork/die-ruimtevaarder-banner.jpg",
     "title": "Die Ruimtevaarder",
     "body": "Stream dit nou op alle platforms",
     "href": "http://smarturl.it/sp1ih4" // TODO
