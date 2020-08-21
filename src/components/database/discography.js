@@ -1,5 +1,75 @@
 export default [
   {
+    id: 6,
+    title: "Die Ruimtevaarder",
+    url: "http://smarturl.it/zmikge",
+    img: "/static/img/artwork/die-ruimtevaarder.jpg",
+    details: [
+      {
+        key: "Title",
+        value: "Die Ruimtevaarder"
+      },
+      {
+        key: "Album",
+        value: "Vir Konteks"
+      },
+      {
+        key: "Released",
+        value: "21 August 2020"
+      },
+      {
+        key: "Label",
+        value: "Independent"
+      },
+      {
+        key: "Genre",
+        value: "Afrikaans Rock"
+      },
+      {
+        key: "Artwork",
+        value: "@nannaventer",
+        href: "http://instagram.com/nannaventer"
+      },
+      {
+        key: "Produced",
+        value: "@joellismusic",
+        href: "http://instagram.com/joellismusic"
+      },
+      {
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/die-ruimtevaarder"
+      }
+    ],
+    released: true,
+    stores: [
+      {
+        url: "https://open.spotify.com/album/7D9IOtsvnt7zaPMFh1e6LL",
+        name: "spotify"
+      },
+      {
+        url: "https://www.youtube.com/watch?v=W7CxYvNzTRk",
+        name: "youtube"
+      },
+      {
+        url: "https://music.apple.com/za/album/die-ruimtevaarder…ngle/1523503209?ls=1&app=music&at=11lEW&ct=zmikge",
+        name: "apple"
+      },
+      {
+        url: "https://play.google.com/store/music/album?id=Bzwfqamdnpt6tc4z2oagnwxxqii&tid=song-Ts7uxduvqxix7oshxbggpewn2ym",
+        name: "play"
+      },
+      {
+        url: "https://www.deezer.com/us/album/160681072?utm_sour…8122&utm_term=605826601_1591341508&utm_medium=web",
+        name: "deezer"
+      },
+      {
+        url: "https://listen.tidal.com/album/148590660",
+        name: "tidal"
+      }
+    ]
+  },
+  {
     id: 5,
     title: "Mors Jou Drank",
     url: "http://smarturl.it/sp1ih4",
@@ -11,7 +81,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",
@@ -81,7 +151,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",
@@ -151,7 +221,7 @@ export default [
       },
       {
         key: "Album",
-        value: "Ruimtevaarder"
+        value: "Vir Konteks"
       },
       {
         key: "Released",

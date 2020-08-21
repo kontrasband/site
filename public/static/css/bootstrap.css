@@ -5,9 +5,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  /* RV colors: */
+  --brand-primary: #bc915e;
+  --brand-secondary: #c8b2d8;
   /* MJD colors: */
-  --brand-primary: #582D56;
-  --brand-secondary: #c2bc15;
+  /* --brand-primary: #582D56;
+  --brand-secondary: #c2bc15; */
   /* Happy Song colors: */
   /* --brand-primary: #984237;
   --brand-secondary: #7cb7d9; */
