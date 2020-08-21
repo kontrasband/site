@@ -8,7 +8,7 @@ const SLIDES = [
     "bg": "/static/img/artwork/die-ruimtevaarder-banner.jpg",
     "title": "Die Ruimtevaarder",
     "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/sp1ih4" // TODO
+    "href": "http://smarturl.it/zmikge"
   },
   {
     "id": 1,
