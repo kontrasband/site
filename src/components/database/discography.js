@@ -110,15 +110,15 @@ export default [
     released: true,
     stores: [
       {
-        url: "https://open.spotify.com/track/4VQQAFMFsTsT9cJXTjXmdg",
+        url: "https://open.spotify.com/album/7D9IOtsvnt7zaPMFh1e6LL",
         name: "spotify"
       },
       {
-        url: "https://youtu.be/4oEB96JVDs8",
+        url: "https://www.youtube.com/watch?v=W7CxYvNzTRk",
         name: "youtube"
       },
       {
-        url: "https://itunes.apple.com/za/album/mors-jou-drank/1514359656?i=1514359657&ls=1&app=music&at=11lEW&ct=sp1ih4%7Cfacebook.com",
+        url: "https://music.apple.com/za/album/die-ruimtevaarder…ngle/1523503209?ls=1&app=music&at=11lEW&ct=zmikge",
         name: "apple"
       },
       {
@@ -126,7 +126,7 @@ export default [
         name: "deezer"
       },
       {
-        url: "https://listen.tidal.com/album/142229619",
+        url: "https://listen.tidal.com/album/148590660",
         name: "tidal"
       }
     ]
