@@ -5,10 +5,10 @@ import BackgroundImage from "./BackgroundImage";
 const SLIDES = [
   {
     "id": 3,
-    "bg": "/static/img/artwork/die-ruimtevaarder-banner.jpg",
-    "title": "Die Ruimtevaarder",
+    "bg": "/static/img/artwork/vir-konteks-banner.jpg",
+    "title": "Vir Konteks",
     "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/zmikge"
+    "href": "http://smarturl.it/8sp2cf"
   },
   {
     "id": 1,
