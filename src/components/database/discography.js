@@ -2,7 +2,7 @@ export default [
   {
     id: 7,
     title: "Vir Konteks",
-    url: "http://smarturl.it/sp1ih4", // TODO
+    url: "http://smarturl.it/8sp2cf",
     img: "/static/img/artwork/vir-konteks.jpg",
     details: [
       {
@@ -41,31 +41,26 @@ export default [
         navlink: "/lyrics/die-ruimtevaarder"
       }
     ],
-    released: false,
-    // TODO
+    released: true,
     stores: [
       {
-        url: "https://open.spotify.com/track/4VQQAFMFsTsT9cJXTjXmdg",
+        url: "https://open.spotify.com/album/73HMULR675lWsQe4UR9Xl9",
         name: "spotify"
       },
       {
-        url: "https://youtu.be/4oEB96JVDs8",
+        url: "https://www.youtube.com/playlist?list=PLkSKwr-cmmSJ5mVfKXKu02g3cQ27qfwuU",
         name: "youtube"
       },
       {
-        url: "https://itunes.apple.com/za/album/mors-jou-drank/1514359656?i=1514359657&ls=1&app=music&at=11lEW&ct=sp1ih4%7Cfacebook.com",
+        url: "https://music.apple.com/za/album/vir-konteks/1527413065",
         name: "apple"
       },
       {
-        url: "https://play.google.com/store/music/album/Kontras_Mors_Jou_Drank?id=B2aa257ihudp2lwkxmlitglrspm",
-        name: "play"
-      },
-      {
-        url: "https://www.deezer.com/track/966618122",
+        url: "https://www.deezer.com/us/album/166656472",
         name: "deezer"
       },
       {
-        url: "https://listen.tidal.com/album/142229619",
+        url: "https://listen.tidal.com/album/151800992",
         name: "tidal"
       }
     ]
@@ -73,7 +68,7 @@ export default [
   {
     id: 6,
     title: "Die Ruimtevaarder",
-    url: "http://smarturl.it/sp1ih4", // TODO
+    url: "http://smarturl.it/zmikge",
     img: "/static/img/artwork/die-ruimtevaarder.jpg",
     details: [
       {
@@ -112,8 +107,7 @@ export default [
         navlink: "/lyrics/die-ruimtevaarder"
       }
     ],
-    released: false,
-    // TODO
+    released: true,
     stores: [
       {
         url: "https://open.spotify.com/track/4VQQAFMFsTsT9cJXTjXmdg",
@@ -126,10 +120,6 @@ export default [
       {
         url: "https://itunes.apple.com/za/album/mors-jou-drank/1514359656?i=1514359657&ls=1&app=music&at=11lEW&ct=sp1ih4%7Cfacebook.com",
         name: "apple"
-      },
-      {
-        url: "https://play.google.com/store/music/album/Kontras_Mors_Jou_Drank?id=B2aa257ihudp2lwkxmlitglrspm",
-        name: "play"
       },
       {
         url: "https://www.deezer.com/track/966618122",
@@ -198,10 +188,6 @@ export default [
         name: "apple"
       },
       {
-        url: "https://play.google.com/store/music/album/Kontras_Mors_Jou_Drank?id=B2aa257ihudp2lwkxmlitglrspm",
-        name: "play"
-      },
-      {
         url: "https://www.deezer.com/track/966618122",
         name: "deezer"
       },
@@ -266,10 +252,6 @@ export default [
       {
         url: "https://music.apple.com/us/album/die-happy-song-single/1506182762?uo=4&app=itunes&at=1001lry3&ct=dashboard&ls=1",
         name: "apple"
-      },
-      {
-        url: "https://play.google.com/store/music/album/Kontras_Die_Happy_Song?id=Bzwieotvnftitvjyjiczkqfwcnm",
-        name: "play"
       },
       {
         url: "https://www.deezer.com/en/album/139845692",
@@ -343,10 +325,6 @@ export default [
         name: "apple"
       },
       {
-        url: "https://play.google.com/music/preview/Tjr7hxzjfkjazgx6w2j5wpukoya?u=0",
-        name: "play"
-      },
-      {
         url: "https://www.deezer.com/en/album/133428252",
         name: "deezer"
       },
@@ -411,10 +389,6 @@ export default [
       {
         url: "https://itunes.apple.com/za/album/24-single/1493972157?uo=4&ls=1&app=music&at=11lEW&ct=7qsim6",
         name: "apple"
-      },
-      {
-        url: "https://play.google.com/store/music/album/Kontras_24?id=Bfhdzfy5zb6asiw57kfy6g6w4pm",
-        name: "play"
       },
       {
         url: "https://www.deezer.com/album/125734002",
@@ -483,10 +457,6 @@ export default [
         name: "apple"
       },
       {
-        url: "https://play.google.com/store/music/artist/Kontras?id=Aanobdoml5f2absa7i3ooltrm3q&hl=en",
-        name: "play"
-      },
-      {
         url: "https://www.deezer.com/en/album/88792602",
         name: "deezer"
       },
@@ -552,10 +522,6 @@ export default [
       {
         url: "https://itunes.apple.com/za/artist/kontras/1445772282",
         name: "apple"
-      },
-      {
-        url: "https://play.google.com/store/music/artist/Kontras?id=Aanobdoml5f2absa7i3ooltrm3q&hl=en",
-        name: "play"
       },
       {
         url: "https://www.deezer.com/en/album/80215072",

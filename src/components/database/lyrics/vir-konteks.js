@@ -11,7 +11,6 @@ import geeMeer from "./gee-meer";
 import parafienParadys from "./parafien-paradys";
 import dieMislukteRewolusie from "./die-mislukte-rewolusie";
 
-// TODO: complete track listing
 export default {
   title: 'Vir Konteks',
   tracks: [
