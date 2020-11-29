@@ -22,26 +22,28 @@ export default function About() {
         <Image src="/static/img/band.jpg" alt="" className="w-100" paddingTop="66.667%" />
         <footer className="photo-credit">Photo by <a href="https://www.instagram.com/paige_fiddes_creative/" target="_blank" rel="noopener noreferrer">Paige Fiddes</a></footer>
         <p>
-          South Africa's latest sensation, <b>Kontras</b>, is back with a brand new single, <b>'Velde'</b>; the first release from
-          their upcoming debut album, <i>Vir Konteks</i>, set to be released in early September. If you are a fan of
-          {" "}<b>Spoegwolf</b>, <b>Fokofpolisiekar</b>, or <b>Die Heuwels Fantasties</b>, then <b>'Velde'</b> is the perfect fit for you.
+          Afrikaans rock band, <b>Kontras</b>, have finally released their debut album <i>Vir Konteks</i> on all digital platforms on the 11th of September 2020. The Stellenbosch band has released several singles throughout the year, namely <i>'Die Happy Song'</i>, <i>‘Mors Jou Drank’</i>, <i>‘Die Ruimtevaarder’</i> and <i>‘Velde’</i> (the latter also has a music video). <i>‘Velde’</i> &amp; <i>‘Die Ruimtevaarder’</i> has received tremendous support from <i>Apple Music</i>’s editorial playlist, <a href="https://music.apple.com/in/playlist/alternatiewe-afrikaans/pl.fdadbcef62bb4bc196202bae0a858350">Alternatiewe Afrikaans</a>, <i>Die Happy Song</i> garnered national publicity due to its topics of womanhood and GBV, and <i>‘Mors Jou Drank’</i> charted for more than 10 weeks on KovsieFM’s ‘Clip Hard Rock Chart’.
         </p>
 
         <p>
-          <b>Kontras'</b> latest hit, <b>'Velde'</b> tackles themes of loss and frustration, yet finds hope in the every day and
-          mundane surroundings. This Stellenbosch based band found their roots in punk, but <b>'Velde'</b> proves
-          that the band has grown their sound to incorporate a lighter and more tender product with a new
-          sound that is sure to be a fan favourite among South Africans.
+          What makes Kontras’ <i>Vir Konteks</i> a step above other albums, is that it caters to everyone. <b>Kontras </b>made a point of it to give listeners context on who they are and where they come from; break up songs, love songs, party songs, political commentary and songs that will leave you angry. It builds a bridge between alternative and contemporary Afrikaans music by including element from each genre. <i>Vir Konteks</i> ties in the current global and political climate from the past 10 years, but it also doesn’t shy away from placing the individual under the microscope.
         </p>
 
         <p>
-          Since their sold-out debut in February 2019, <b>Kontras</b> has seen a wide array of success during their
-          short-lived existence. Their single <b>'Middelklas Middelman'</b> is currently spinning on national television
-          on <b>KykNET</b>, received praise from well-known print publications such as <b>Huisgenoot</b>, who said that &ldquo;<i>die
-          akoeste verwerking sal mense in 'n rokerige kroeg in vervoering hê</i>&rdquo;. They've also been mentioned in
-          various online publications such as <b>Texx and the City</b>, <b>Sterre</b>, <b>Afrikaanse Musiek Nuus</b>, <b>RWRant</b>, <b>SA
-          Music News</b>, <b>Plectrum Musiek</b>, <b>MatieMedia</b>, and <b>Cape Town Experiences Magazine</b> to name but a
-          few.
+          Tracks like Chemikalieë, Parafien Paradys, and Die Mislukte Rewolusie questions the status quo of Afrikaans culture, while tounge in cheek bops like Peruvian Flu and Mors Jou Drank reminds us not to take ourselves too seriously. Velde, Die Ruimtevaarder and <i>Die Happy Song</i> places the focus on your loved ones and how they can help you get through a difficult time. Gee Meer and Sprokies Katastrofies tackles our inner demons and tackles subjects like anxiety, self-loathing and mental health issues. Sout In My Are is an ode to the working class; willing to do anything to put food on the table, while Jou Eie Kruisiging makes use of bible metaphors to make sense of a messy breakup.
+        </p>
+
+        <blockquote className="blockquote">
+          <p className="mb-0">
+            “Ons as mense mis soveelkeer die ware konteks agter wat vir ons gesê word deur ander. Selde krap ons dieper as die oppervlak. <i>Vir Konteks</i> is 'n dieper krap vir 'n groter jeuk, wat ons voel ons nie kan bereik nie”
+          </p>
+          <footer className="blockquote-footer">Jacques Groenewald (vocalist)</footer>
+        </blockquote>
+
+        <PageTitle title="Some Background On Kontras" subtitle />
+
+        <p>
+          A band that formed between classes at the University of Stellenbosch, <b>Kontras</b> made their debut in early 2019 when Jacques Groenewald (vocals), Daniël Botha (drums), Andrew Veldman (lead guitar) and Louwrens Labuschagne (bass guitar) realised that there is a distinct lack of genuineness in Afrikaans music. Over the next 2 years, they released <b>Side A</b> and <b>Side B</b>, which included <i>Middelklas Middelman</i>. This song put <b>Kontras</b> on the map, getting widespread support from Afrikaans is Groot, KykNET, Huisgenoot, MaroelaMedia, Sterre, Afrikaanse Musiek Nuus, Texx and the City, Plektrum Musiek and many more. <b>Kontras</b> has received more than <b>90 000 plays</b> {/* TODO: auto calculate streams */} on digital streaming platforms and it’s still growing. <b>Kontras</b>’ music can be heard nationwide on radio stations such as GrootFM, BayFM, HosaRadio, BokRadio, OneFM, MFM 92.6, KovsieFM, LekkerFM, Radio Overberg, GrindRadio and TreffersFM.
         </p>
 
         <blockquote className="blockquote">
@@ -54,45 +56,31 @@ export default function About() {
         </blockquote>
 
         <p>
-          <b>'Middeklas Middelman'</b> also received support from the influential <b>Afrikaans Is Groot</b> who included
-          this track as part of their official <a href="https://open.spotify.com/playlist/2D8Bq06NMp2DIHHmNeMBQ4?si=dkAa6ZyLRkisF1al6dyoAQ">Alternatief is Groot</a> playlist on Spotify. Furthermore, Spotify also
-          included this track as part of the editorial playlist <b>Afrikaans Pop Hits</b> and it's currently receiving
-          thousands of streams via <b>Apple Music</b>'s editorial playlist, <a href="https://music.apple.com/in/playlist/alternatiewe-afrikaans/pl.fdadbcef62bb4bc196202bae0a858350">Alternatiewe Afrikaans</a>, where <b>Kontras</b> shares the company of Afrikaans legends such as <b>Francois van Coke</b>, <b>Fokofpolisiekar</b>, <b>Karen Zoid</b>, <b>Die
-          Heuwels Fantasies</b>, <b>aKING</b>, <b>Jack Parow</b> and many more artists.
-        </p>
-
-        <p>
-          Within weeks of release, <b>Kontras</b> has received more than <b>35 000</b> plays on digital streaming platforms
-          and it's still growing. <b>Kontras'</b> music can be heard nationwide on radio stations such as <b>BokRadio</b>, <b>OneFM</b>, <b>MFM 92.6</b>, <b>KovsieFM</b>, <b>LekkerFM</b>, <b>Radio Overberg</b>, <b>GrindRadio</b> and <b>TreffersFM</b>. Of these
-          stations, <b>Kontras'</b> charted with multiple singles on the <b>MFM Top 40</b> for a total of 40 weeks, while on <b>KovsieFM</b> for 10 weeks where <b>Kontras'</b> single <b>'24'</b> is sitting comfortably on #2, and <b>'My Dolla Nee'</b>
-          reached the <b>#18</b> position on their end of year chart for 2019.
-        </p>
-
-        <p>
           Not too shy on the live music event scene, <b>Kontras</b> has played several festivals including <b>Rocking
           Stellies</b>, <b>The International Tequila Festival</b>, and <b>I Love Stellies</b> where they've shared the stage with
           the likes of <b>Fokofpolisiekar</b>, <b>Jack Parow</b>, <b>The Plastics</b>, <b>Willim Welsyn</b>, <b>The Kiffness</b>, <b>Straatligkinders</b>, <b>Early B</b>, <b>Van Pletzen</b>, <b>YoungstaCPT</b>, <b>Tasché</b>, and <b>Die Heuwels Fantasties</b> to name but a few.
         </p>
+
       </Container>
       <PageTitle title="The Team" subtitle />
-              <Container>
-      {The_Team.map(member => {
-        if (member.align === "left" || width < 768) {
+      <Container>
+        {The_Team.map(member => {
+          if (member.align === "left" || width < 768) {
+            return (
+              <Row key={member.name}>
+                <BandMember member={member} xs={12} md={5} lg={4} />
+                <MemberAbout member={member} />
+              </Row>
+            )
+          }
+
           return (
             <Row key={member.name}>
+              <MemberAbout member={member} />
               <BandMember member={member} xs={12} md={5} lg={4} />
-              <MemberAbout member={member}/>
             </Row>
           )
-        }
-
-        return (
-          <Row key={member.name}>
-            <MemberAbout member={member}/>
-            <BandMember member={member} xs={12} md={5} lg={4} />
-          </Row>
-        )
-      })}
+        })}
       </Container>
     </Page>
   )
