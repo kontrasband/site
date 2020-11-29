@@ -12,13 +12,13 @@ jobs:
         with:
           persist-credentials: false
       - name: Install 🔧
-        uses: CultureHQ/actions-yarn@v1.0.1
+        uses: borales/actions-yarn@v2.0.0
         with:
-          args: install
+          cmd: install
       - name: Build 👷‍♀️
-        uses: CultureHQ/actions-yarn@v1.0.1
+        uses: borales/actions-yarn@v2.0.0
         with:
-          args: build
+          cmd: build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
