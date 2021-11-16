@@ -30,6 +30,10 @@ div.carousel-item {
   white-space: pre-line;
 }
 
+.tracklist-container li > a {
+  color: white !important;
+}
+
 .band-about {
   margin-bottom: 6rem;
 }

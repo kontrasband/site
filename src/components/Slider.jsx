@@ -4,37 +4,44 @@ import BackgroundImage from "./BackgroundImage";
 
 const SLIDES = [
   {
-    "id": 3,
-    "bg": "/static/img/artwork/vir-konteks-banner.jpg",
-    "title": "Vir Konteks",
-    "body": "Stream dit nou op alle platforms",
-    "href": "http://smarturl.it/8sp2cf"
+    id: 5,
+    bg: "/static/img/artwork/somer-sonder-sondes-banner.jpeg",
+    title: "Iets Is Fokken Fout Met My",
+    body: "Stream dit nou op alle platforms",
+    href: "https://smarturl.it/f70dmi",
   },
   {
-    "id": 1,
-    "bg": "/static/img/paige-shoot.jpg",
-    "title": "Kontras",
-    "body": "Alternatiewe Afrikaanse Musiek"
+    id: 1,
+    bg: "/static/img/paige-shoot.jpg",
+    title: "Kontras",
+    body: "Alternatiewe Afrikaanse Musiek",
   },
   {
-    "id": 2,
-    "bg": "/static/img/kontras-aandklas.jpg",
-    "title": "Ons almal is 'n kontras",
-    "body": "Ons haat die dinge wat ons self die meeste doen."
+    id: 4,
+    bg: "/static/img/velde-vid.jpeg",
+    title: "Velde",
+    body: "Kyk hom op YouTube",
+    href: "https://www.youtube.com/watch?v=2OeLrsLnCio",
   },
   {
-    "id": 4,
-    "bg": "/static/img/velde-vid.jpeg",
-    "title": "Velde",
-    "body": "Kyk hom op YouTube",
-    "href": "https://www.youtube.com/watch?v=2OeLrsLnCio"
-  }
-]
+    id: 3,
+    bg: "/static/img/artwork/vir-konteks-banner.jpg",
+    title: "Vir Konteks",
+    body: "Stream dit nou op alle platforms",
+    href: "http://smarturl.it/8sp2cf",
+  },
+  {
+    id: 2,
+    bg: "/static/img/kontras-aandklas.jpg",
+    title: "Ons almal is 'n kontras",
+    body: "Ons haat die dinge wat ons self die meeste doen.",
+  },
+];
 
 function Slider() {
   return (
-    <Carousel controls={false} fade={true} >
-      {SLIDES.map(slide => {
+    <Carousel controls={false} fade={true}>
+      {SLIDES.map((slide) => {
         const { id, bg, title, body, href } = slide;
         return (
           <Carousel.Item key={id}>
