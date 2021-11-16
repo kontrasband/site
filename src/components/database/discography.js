@@ -2,7 +2,7 @@ export default [
   {
     id: 8,
     title: "Iets Is Fokken Fout Met My",
-    url: "http://smarturl.it/8sp2cf",
+    url: "https://smarturl.it/f70dmi",
     img: "/static/img/artwork/somer-sonder-sondes.jpeg",
     details: [
       {
@@ -44,23 +44,23 @@ export default [
     released: true,
     stores: [
       {
-        url: "https://open.spotify.com/album/73HMULR675lWsQe4UR9Xl9",
+        url: "https://open.spotify.com/track/2eAIWv3uw81EZVjQj7MeGk",
         name: "spotify",
       },
       {
-        url: "https://www.youtube.com/playlist?list=PLkSKwr-cmmSJ5mVfKXKu02g3cQ27qfwuU",
+        url: "https://www.youtube.com/watch?v=op3XDhpvOGE",
         name: "youtube",
       },
       {
-        url: "https://music.apple.com/za/album/vir-konteks/1527413065",
+        url: "https://music.apple.com/us/album/iets-is-fokken-fout-met-my-single/1590544838",
         name: "apple",
       },
       {
-        url: "https://www.deezer.com/us/album/166656472",
+        url: "https://www.deezer.com/en/album/196511051256",
         name: "deezer",
       },
       {
-        url: "https://listen.tidal.com/album/151800992",
+        url: "https://tidal.com/browse/album/201359298",
         name: "tidal",
       },
     ],

@@ -8,7 +8,7 @@ const SLIDES = [
     bg: "/static/img/artwork/somer-sonder-sondes-banner.jpeg",
     title: "Iets Is Fokken Fout Met My",
     body: "Stream dit nou op alle platforms",
-    href: "http://smarturl.it/8sp2cf",
+    href: "https://smarturl.it/f70dmi",
   },
   {
     id: 1,
