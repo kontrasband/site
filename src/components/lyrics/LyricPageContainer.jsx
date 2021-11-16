@@ -1,10 +1,14 @@
-import React from 'react';
-import { Redirect, useParams } from 'react-router-dom';
-import { getReleaseBySlug, getLyricsByReleaseName } from '../../utils';
-import PageTitle from '../PageTitle';
-import Release from '../Release';
-import Song from './Song';
-
+import React from "react";
+import { Container } from "react-bootstrap";
+import { Redirect, useParams } from "react-router-dom";
+import {
+  getReleaseBySlug,
+  getLyricsByReleaseName,
+  titleToSlug,
+} from "../../utils";
+import PageTitle from "../PageTitle";
+import Release from "../Release";
+import Song from "./Song";
 
 export default function LyricPageContainer() {
   const { slug } = useParams();
@@ -20,9 +24,23 @@ export default function LyricPageContainer() {
       <div className="gap-one-bottom-md">
         <Release release={release} md={4} />
       </div>
-      {tracks.map(song => (
+      {tracks.length > 1 && (
+        <div className="even-odd-bg">
+          <PageTitle title="Tracks" subtitle />
+          <Container className="lyrics-container">
+            <ul className="tracklist-container">
+              {tracks.map((track) => (
+                <li>
+                  <a href={`#${titleToSlug(track.title)}`}>{track.title}</a>
+                </li>
+              ))}
+            </ul>
+          </Container>
+        </div>
+      )}
+      {tracks.map((song) => (
         <Song key={song.title} song={song} />
       ))}
     </>
-  )
+  );
 }
