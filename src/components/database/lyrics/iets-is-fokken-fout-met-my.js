@@ -33,7 +33,7 @@ export default {
       Die nag is donker en vol gevaar
       Ek loop soms net by jou verby
       Ek weet iets is fout
-      Iets fokken fout met my
+      Iets is fokken fout met my
       `,
     },
   ],
