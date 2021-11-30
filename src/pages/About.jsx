@@ -6,7 +6,7 @@ import team from "../components/database/team";
 import { Row, Container } from "react-bootstrap";
 import BandMember from "../components/BandMember";
 import MemberAbout from "../components/MemberAbout";
-import { titleToSlug, useWindowSize } from "../utils";
+import { useWindowSize } from "../utils";
 import Image from "../components/Image";
 
 const The_Team = [...band, ...team];

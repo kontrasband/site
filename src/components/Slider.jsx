@@ -5,10 +5,10 @@ import BackgroundImage from "./BackgroundImage";
 const SLIDES = [
   {
     id: 5,
-    bg: "/static/img/artwork/somer-sonder-sondes-banner.jpeg",
+    bg: "/static/img/kiffme-vid.png",
     title: "Iets Is Fokken Fout Met My",
-    body: "Stream dit nou op alle platforms",
-    href: "https://smarturl.it/f70dmi",
+    body: "Kyk hom op YouTube",
+    href: "https://www.youtube.com/watch?v=A-g0e-LFRNE",
   },
   {
     id: 1,
@@ -18,17 +18,10 @@ const SLIDES = [
   },
   {
     id: 4,
-    bg: "/static/img/velde-vid.jpeg",
-    title: "Velde",
-    body: "Kyk hom op YouTube",
-    href: "https://www.youtube.com/watch?v=2OeLrsLnCio",
-  },
-  {
-    id: 3,
-    bg: "/static/img/artwork/vir-konteks-banner.jpg",
-    title: "Vir Konteks",
+    bg: "/static/img/artwork/somer-sonder-sondes-banner.jpeg",
+    title: "Somer Sonder Sondes",
     body: "Stream dit nou op alle platforms",
-    href: "http://smarturl.it/8sp2cf",
+    href: "https://distrokid.com/hyperfollow/kontras/somer-sonder-sondes",
   },
   {
     id: 2,
