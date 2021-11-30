@@ -114,7 +114,7 @@ export default [
         name: "spotify",
       },
       {
-        url: "https://www.youtube.com/watch?v=op3XDhpvOGE",
+        url: "https://www.youtube.com/watch?v=A-g0e-LFRNE",
         name: "youtube",
       },
       {
