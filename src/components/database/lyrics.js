@@ -7,8 +7,10 @@ import MorsJouDrank from "./lyrics/mors-jou-drank";
 import DieRuimtevaarder from "./lyrics/die-ruimtevaarder";
 import VirKonteks from "./lyrics/vir-konteks";
 import IetsIsFokkenFoutMetMy from "./lyrics/iets-is-fokken-fout-met-my";
+import SomerSonderSondes from "./lyrics/somer-sonder-sondes";
 
 export default [
+  SomerSonderSondes,
   IetsIsFokkenFoutMetMy,
   VirKonteks,
   DieRuimtevaarder,

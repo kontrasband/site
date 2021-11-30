@@ -1,5 +1,71 @@
 export default [
   {
+    id: 9,
+    title: "Somer Sonder Sondes",
+    url: "https://distrokid.com/hyperfollow/kontras/somer-sonder-sondes",
+    img: "/static/img/artwork/somer-sonder-sondes.jpeg",
+    details: [
+      {
+        key: "Title",
+        value: "Somer Sonder Sondes",
+      },
+      {
+        key: "Album",
+        value: "Somer Sonder Sondes",
+      },
+      {
+        key: "Released",
+        value: "26 November 2021",
+      },
+      {
+        key: "Label",
+        value: "Independent",
+      },
+      {
+        key: "Genre",
+        value: "Afrikaans Rock",
+      },
+      {
+        key: "Artwork",
+        value: "@nannaventer",
+        href: "http://instagram.com/nannaventer",
+      },
+      {
+        key: "Produced",
+        value: "@joellismusic",
+        href: "http://instagram.com/joellismusic",
+      },
+      {
+        key: "Lyrics",
+        value: "Here",
+        navlink: "/lyrics/somer-sonder-sondes",
+      },
+    ],
+    released: true,
+    stores: [
+      {
+        url: "https://open.spotify.com/album/0gvd1Y7lb6ydVTu6bDQCIa",
+        name: "spotify",
+      },
+      {
+        url: "https://www.youtube.com/playlist?list=PLkSKwr-cmmSJ9uDy3y0H3dJlFdy2S7BH0",
+        name: "youtube",
+      },
+      {
+        url: "https://music.apple.com/us/album/somer-sonder-sondes-ep/1591264652?uo=4",
+        name: "apple",
+      },
+      {
+        url: "https://www.deezer.com/en/album/267000292",
+        name: "deezer",
+      },
+      {
+        url: "https://tidal.com/browse/album/201897495",
+        name: "tidal",
+      },
+    ],
+  },
+  {
     id: 8,
     title: "Iets Is Fokken Fout Met My",
     url: "https://smarturl.it/f70dmi",
