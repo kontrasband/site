@@ -1,7 +1,7 @@
 name: Build and Deploy
-on: 
+on:
   push:
-    branches: 
+    branches:
       - master
 jobs:
   build-and-deploy:
@@ -17,7 +17,7 @@ jobs:
           node-version: 14.x
       - name: Build 👷‍♀️
         run: |
-          yarn --frozen-lockfile
+          yarn
           yarn build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
