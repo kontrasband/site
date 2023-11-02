@@ -8,10 +8,8 @@ import DieRuimtevaarder from "./lyrics/die-ruimtevaarder";
 import VirKonteks from "./lyrics/vir-konteks";
 import IetsIsFokkenFoutMetMy from "./lyrics/iets-is-fokken-fout-met-my";
 import SomerSonderSondes from "./lyrics/somer-sonder-sondes";
-import SoosNBrander from "./lyrics/soos-n-brander";
 
 export default [
-  SoosNBrander,
   SomerSonderSondes,
   IetsIsFokkenFoutMetMy,
   VirKonteks,

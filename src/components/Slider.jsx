@@ -4,18 +4,17 @@ import BackgroundImage from "./BackgroundImage";
 
 const SLIDES = [
   {
-    id: 1,
-    bg: "/static/img/artwork/soos-n-brander.png",
-    title: "Soos 'n Brander",
-    body: "Luister hom op jou gunstelling platform",
-    href: "https://lnkfi.re/DnvaCxWI",
-  },
-  {
-    id: 3,
+    id: 5,
     bg: "/static/img/kiffme-vid.png",
     title: "Iets Is Fokken Fout Met My",
     body: "Kyk hom op YouTube",
     href: "https://www.youtube.com/watch?v=A-g0e-LFRNE",
+  },
+  {
+    id: 1,
+    bg: "/static/img/paige-shoot.jpg",
+    title: "Kontras",
+    body: "Alternatiewe Afrikaanse Musiek",
   },
   {
     id: 4,
